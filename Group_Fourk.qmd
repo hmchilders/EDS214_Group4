@@ -6,6 +6,4 @@ editor: visual
 
 ## Group Project
 
-```{r}
-#this is a test!!!
-```
+

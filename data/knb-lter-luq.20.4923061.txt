@@ -1,0 +1,5413 @@
+Dataset title:  Chemistry of stream water from the Luquillo Mountains
+
+Dataset ID:  doi:10.6073/pasta/570231c2807a6396ced6a89ef7547bd4
+Dataset Creator
+
+	Name:		William H. McDowell
+	
+	Address:
+			University of New Hampshire Department of Natural Resources and the Environment, James Hall
+			Durham, NH 3824  US
+	
+	Email:		Bill.McDowell@unh.edu
+
+	Organization:	International Institute of Tropical Forestry(IITF), USDA Forest Service.
+	URL:		https://www.fs.usda.gov/iitf
+
+
+Dataset Abstract
+
+
+
+Dataset Keywords
+
+	inorganic nutrients
+	processes
+	biogeochemical processes
+	nutrient cycling
+	substances
+	elements and compounds
+	calcium
+	chlorine
+	chloride
+	magnesium
+	nitrogen
+	nitrogen compounds
+	ammonium
+	nitrate
+	potassium
+	sodium
+	sulfur
+	sulfate
+
+
+Intellectual Rights
+
+
+
+Distribution
+
+	Online distribution:  https://doi.org/10.6073/pasta/570231c2807a6396ced6a89ef7547bd4
+
+
+Geographic Coverage
+
+
+	Bounding Coordinates
+
+		Geographic description:	Quebrada Sonadora (QS), near El Verde Field Station in the Luquillo Experimental Forest (LEF) .  Puerto Rico 186 El Yunque National Forest, Rio Grande, Río Grande 00745, Puerto Rico 180 m W
+		West bounding coordinate:	-65.8193
+		East bounding coordinate:	-65.8193
+		North bounding coordinate:	18.3232
+		South bounding coordinate:	18.3232
+	
+		Geographic description:	Quebrada Toronja (QT),near El Verde Field Station in the LEF.
+		West bounding coordinate:	-65.819914
+		East bounding coordinate:	-65.819914
+		North bounding coordinate:	18.326553
+		South bounding coordinate:	18.326553
+	
+		Geographic description:	Rio Icacos (RI) in the LEF, PR-9938 El Yunque National Forest, Rio Grande, Río Grande 00745, Puerto Rico ‎ 88 m. 
+		West bounding coordinate:	-65.7843
+		East bounding coordinate:	-65.7843
+		North bounding coordinate:	18.2716
+		South bounding coordinate:	18.2716
+	
+		Geographic description:	Rio Mameyes gage (MG) in the LEF, Locates by Google Maps. Puerto Rico 191 Rio Grande, Río Grande 00745, Puerto Rico 19 m S
+		West bounding coordinate:	-65.7685
+		East bounding coordinate:	-65.7685
+		North bounding coordinate:	18.3561
+		South bounding coordinate:	18.3561
+	
+		Geographic description:	Bisley Quebrada 1 (Bisley-Q1) a Bisley Experimental Watershed (BEW) in the LEF. Puerto Rico 988 El Yunque National Forest, Luquillo, 00773, Puerto Rico 613 m NE
+		West bounding coordinate:	-65.7454
+		East bounding coordinate:	-65.7454
+		North bounding coordinate:	18.3157
+		South bounding coordinate:	18.3157
+	
+		Geographic description:	Bisley Quebrada 2 (Bisley-Q2)a Bisley Experimental Watershed (BEW) in the LEF. Puerto Rico 988 El Yunque National Forest, Luquillo, 00773, Puerto Rico 766 m NE
+		West bounding coordinate:	-65.7463
+		East bounding coordinate:	-65.7463
+		North bounding coordinate:	18.3146
+		South bounding coordinate:	18.3146
+	
+		Geographic description:	Bisley Quebrada 3 (Bisley-Q3)a Bisley Experimental Watershed (BEW) in the LEF.  Puerto Rico 988 El Yunque National Forest, Luquillo, 00773, Puerto Rico 1.0 km N
+		West bounding coordinate:	-65.7473
+		East bounding coordinate:	-65.7473
+		North bounding coordinate:	18.3141
+		South bounding coordinate:	18.3141
+	
+		Geographic description:	Quebrada Prieta A (QPA) in the LEF. Puerto Rico 191 El Yunque National Forest, Rio Grande, Naguabo 00745, Puerto Rico 2.1 km W (Southern East tributary of Rio Prieta)
+		West bounding coordinate:	-65.7681
+		East bounding coordinate:	-65.7681
+		North bounding coordinate:	18.2629
+		South bounding coordinate:	18.2629
+	
+		Geographic description:	Quebrada Prieta B (QPB) in the LEF. Puerto Rico 191 El Yunque National Forest, Rio Grande, Naguabo 00745, Puerto Rico 1.9 km W (North West tributary of Rio Prieta)
+		West bounding coordinate:	-65.7697
+		East bounding coordinate:	-65.7697
+		North bounding coordinate:	18.2642
+		South bounding coordinate:	18.2642
+	
+		Geographic description:	Quebrada Prieta (QP) iin the LEF. Puerto Rico 191 El Yunque National Forest, Rio Grande, Naguabo 00745, Puerto Rico 1.5 km NW
+		West bounding coordinate:	-65.7789
+		East bounding coordinate:	-65.7789
+		North bounding coordinate:	18.2569
+		South bounding coordinate:	18.2569
+	
+		Geographic description:	Rio Mameyes gage at Puente Roto (MPR) in the LEF. Puerto Rico 988 El Yunque National Forest, Rio Grande, 00745, Puerto Rico 519 m W
+		West bounding coordinate:	-65.7505
+		East bounding coordinate:	-65.7505
+		North bounding coordinate:	18.327
+		South bounding coordinate:	18.327
+	
+		Geographic description:	Quebrada Guaba (QG) in the LEF, on right bank off State Road 191 at El Yunque Caribbean National Forest, 4.8 mi (7.7 km) southeast of Campamento Eliza Colberg, 1.3 mi (2.1 km) southeast of Mt. Britton, 2 mi (3.2 km) northwest of Pico del Este, and 7.3 mi (11.7 km) southeast of Río Grande plaza.
+		West bounding coordinate:	-65.7889
+		East bounding coordinate:	-65.7889
+		North bounding coordinate:	18.2839
+		South bounding coordinate:	18.2839
+	
+
+
+
+Temporal Coverage
+
+	Start Date:  1983-05-24
+	End Date:  2018-12-25
+
+
+Dataset Contact
+
+
+
+Methods
+
+
+
+	Method Step 
+
+		Description 
+
+
+
+		Instrumentation
+
+			Electrometric with combination electrode
+
+
+Data Table
+
+	Entity Name:  LUQ LTER method detection limits
+	Entity Description:  LUQ LTER method detection limits
+	Object Name:  LUQ LTER MDLs.csv
+
+
+
+Data Format
+
+	Number of Header Lines:  1
+	Attribute Orientation:  column
+	Field Delimiter:  ,
+
+
+
+Attributes
+
+	Attribute Name:  Analyte_ID
+	Attribute Label:  Analyte measured
+	Attribute Definition:  Analyte measured
+	Storage Type:  string
+	Measurement Scale: 
+		The analyte being detected.
+	Missing Value Code: 
+
+
+	Attribute Name:  MDL
+	Attribute Label:  Method detection limit
+	Attribute Definition:  Method detection limit
+	Storage Type:  
+	Measurement Scale: 
+		Units:		Method detection limit
+		Number Type:  real
+	Missing Value Code: 
+
+
+	Attribute Name:  Units
+	Attribute Label:  unit of the method detection limit
+	Attribute Definition:  Method detection limit
+	Storage Type:  
+	Measurement Scale: 
+		Unit of the method detection limit
+	Missing Value Code: 
+
+
+	Attribute Name:  Sample_ID
+	Attribute Label:  Watershed or Collector's location
+	Attribute Definition:  Watershed or Collector's location where the sample is taken
+	Storage Type:  string
+	Measurement Scale: 
+		Watershed or Collector's location where the sample is taken
+	Missing Value Code: 
+
+
+	Attribute Name:  Code
+	Attribute Label:  Sample Code
+	Attribute Definition:  Numeric code of sample assigned at ITES
+	Storage Type:  
+	Measurement Scale: 
+		Units:  dimensionless
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Sample_Date
+	Attribute Label:  Sample Date
+	Attribute Definition:  Date when the sample was collected
+	Storage Type:  date
+	Measurement Scale: 
+	Missing Value Code: 
+
+
+	Attribute Name:  Sample_Time
+	Attribute Label:  Sample Time
+	Attribute Definition:  Time where sample was collected in the field
+	Storage Type:  
+	Measurement Scale: 
+		Units:		dimmessionless
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Gage_Ht
+	Attribute Label:  Gage height
+	Attribute Definition:  The height of the water surface above the gage datum (zero point) at sampling time (in meters)
+	Storage Type:  
+	Measurement Scale: 
+		Units:  meter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Temp
+	Attribute Label:  Temperature of water sample
+	Attribute Definition:  Temperature of the sample collected
+	Storage Type:  
+	Measurement Scale: 
+		Units:  celsius
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  pH
+	Attribute Label:  pH Electrometric with combination electrode
+	Attribute Definition:  pH (Electrometric with combination electrode)
+	Storage Type:  
+	Measurement Scale: 
+		Units:  dimensionless
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Cond
+	Attribute Label:  Conductivity
+	Attribute Definition:  Conductivity (Conductivity bridge in micro siemens/cm )
+	Storage Type:  
+	Measurement Scale: 
+		Units:		microSiemensPerCentimeter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Cl
+	Attribute Label:  Chloride
+	Attribute Definition:  Chloride (up to 1989 by automated colorimetric analysis (thiocyanate); after 1989 by liquid chromatography with conductivity detection) in mg Cl/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  NO3-N
+	Attribute Label:  Nitrate
+	Attribute Definition:  Amount of dissolved nitrate in the stream water in micrograms nitrogen per liter (ug N/L)
+	Storage Type:  
+	Measurement Scale: 
+		Units:  microgramsPerLiter
+		Precision:  0.1
+		Number Type:  real
+	Missing Value Code: 
+
+
+	Attribute Name:  SO4-S
+	Attribute Label:  Sulfate
+	Attribute Definition:  Sulfate (Liquid chromatography; conductivity detection) in mg/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Na
+	Attribute Label:  Sodium
+	Attribute Definition:  Sodium (up to 1994 by atomic absorption spectroscopy; after 1994 by ion chromatography with conductivity detection) in mg/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Precision:  0.01
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  K
+	Attribute Label:  Potassium
+	Attribute Definition:  Potassium (up to 1994 by atomic absorption spectroscopy; after 1994 by ion chromatography with conductivity detection) in ug N/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Mg
+	Attribute Label:  Magnesium
+	Attribute Definition:  Magnesium (up to 1994 by atomic absorption spectroscopy; after 1994 by ion chromatography with conductivity detection) in mg/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Ca
+	Attribute Label:  Calcium
+	Attribute Definition:  Calcium (up to 1994 by atomic absorption spectroscopy; after 1994 by ion chromatography with conductivity detection) in mg/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  NH4-N
+	Attribute Label:  Ammonium Nitrogen
+	Attribute Definition:  Ammonium Nitrogen[automated colorimetric analysis (phenolhypochlorite)] in ug N/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  microgramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  PO4-P
+	Attribute Label:  Phosphate
+	Attribute Definition:  Phosphate [automated colorimetric analysis (molybdate blue)] in ug P/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  microgramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  DOC
+	Attribute Label:  Dissolved organic carbon
+	Attribute Definition:  Amount of dissolved organic carbon in the stream water ion milligrams carbon per liter (mg C/L)
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Precision:  0.01
+		Number Type:  real
+	Missing Value Code: 
+
+
+	Attribute Name:  DIC
+	Attribute Label:  Dissolved Inorganic Carbon
+	Attribute Definition:  Dissolved Inorganic Carbon [by syringe stripping and infrared spectroscopy (Stainton 1973).] inmg C/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  TDN
+	Attribute Label:  Total Dissolved Nitrogen
+	Attribute Definition:  Total Digestible Nutrients (prior to 1998 by persulfate oxidation and automated colorimetric analysis; after 1998 by high temperature catalytic oxidation with chemiluminescent detection) inmg N/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  TDP
+	Attribute Label:  Total Dissolved Phosphate
+	Attribute Definition:  Total Dissolved Phosphate (by persulfate digestion followed by automated colorimetric analysis) in ug P/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  microgramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  SiO2
+	Attribute Label:  Silica
+	Attribute Definition:  Silica [automated colorimetric analysis (molybdate blue)] in mg SiO2/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  DON
+	Attribute Label:  Dissolved Organic Nitrogen
+	Attribute Definition:  Dissolved Organic Nitrogen (by difference (TDN - NO3-N - NH4-N)) in mg N/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  TSS
+	Attribute Label:  Total Suspended Sediments in mg/L - Gravemetric method, dried at 105 degrees C
+	Attribute Definition:  Total Suspended Sediments in mg/L - Gravemetric method, dried at 105 degrees C
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  ChlorideCode
+	Attribute Label:  Code indicating if Chloride is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Chloride is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Chloride is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  NitrateCode
+	Attribute Label:  Code indicating if Nitrate is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Nitrate is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Nitrate is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  SulfateCode
+	Attribute Label:  Code indicating if Sulfate is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Sulfate is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Sulfate is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  SodiumCode
+	Attribute Label:  Code indicating if Sodium is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Sodium is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Sodium is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  PotassiumCode
+	Attribute Label:  Code indicating if Potassium is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Potassium is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Potassium is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  MagnesiumCode
+	Attribute Label:  Code indicating if Magnesium is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Magnesium is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Magnesium is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  CalciumCode
+	Attribute Label:  Code indicating if Calcium is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Calcium is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Calcium is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  NH4Code
+	Attribute Label:  Code indicating if NH4 is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if NH4 is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if NH4 is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  PO4Code
+	Attribute Label:  Code indicating if PO4 is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if PO4 is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if PO4 is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  DOCCode
+	Attribute Label:  Code indicating if DOC is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if DOC is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if DOC is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  DICCode
+	Attribute Label:  Code indicating if DIC is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if DIC is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if DIC is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  TDNCode
+	Attribute Label:  Code indicating if TDN is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if TDN is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if TDN is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  SiO2Code
+	Attribute Label:  Code indicating if SiO2 is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if SiO2 is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if SiO2 is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  DONCode
+	Attribute Label:  Code indicating if DON is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if DON is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if DON is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  Sample_ID
+	Attribute Label:  Watershed or Collector's location
+	Attribute Definition:  Watershed or Collector's location where the sample is taken
+	Storage Type:  string
+	Measurement Scale: 
+		Watershed or Collector's location where the sample is taken
+	Missing Value Code: 
+
+
+	Attribute Name:  Code
+	Attribute Label:  Sample Code
+	Attribute Definition:  Numeric code of sample assigned at ITES
+	Storage Type:  
+	Measurement Scale: 
+		Units:  dimensionless
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Sample_Date
+	Attribute Label:  Sample Date
+	Attribute Definition:  Date when the sample was collected
+	Storage Type:  date
+	Measurement Scale: 
+	Missing Value Code: 
+
+
+	Attribute Name:  Sample_Time
+	Attribute Label:  Sample Time
+	Attribute Definition:  Time where sample was collected in the field
+	Storage Type:  
+	Measurement Scale: 
+		Units:		dimmessionless
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Gage_Ht
+	Attribute Label:  Gage height
+	Attribute Definition:  The height of the water surface above the gage datum (zero point) at sampling time (in meters)
+	Storage Type:  
+	Measurement Scale: 
+		Units:  meter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Temp
+	Attribute Label:  Temperature of water sample
+	Attribute Definition:  Temperature of the sample collected
+	Storage Type:  
+	Measurement Scale: 
+		Units:  celsius
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  pH
+	Attribute Label:  pH Electrometric with combination electrode
+	Attribute Definition:  pH (Electrometric with combination electrode)
+	Storage Type:  
+	Measurement Scale: 
+		Units:  dimensionless
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Cond
+	Attribute Label:  Conductivity
+	Attribute Definition:  Conductivity (Conductivity bridge in micro siemens/cm )
+	Storage Type:  
+	Measurement Scale: 
+		Units:		microSiemensPerCentimeter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Cl
+	Attribute Label:  Chloride
+	Attribute Definition:  Chloride (up to 1989 by automated colorimetric analysis (thiocyanate); after 1989 by liquid chromatography with conductivity detection) in mg Cl/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  NO3-N
+	Attribute Label:  Nitrate
+	Attribute Definition:  Amount of dissolved nitrate in the stream water in micrograms nitrogen per liter (ug N/L)
+	Storage Type:  
+	Measurement Scale: 
+		Units:  microgramsPerLiter
+		Precision:  0.1
+		Number Type:  real
+	Missing Value Code: 
+
+
+	Attribute Name:  SO4-S
+	Attribute Label:  Sulfate
+	Attribute Definition:  Sulfate (Liquid chromatography; conductivity detection) in mg/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Na
+	Attribute Label:  Sodium
+	Attribute Definition:  Sodium (up to 1994 by atomic absorption spectroscopy; after 1994 by ion chromatography with conductivity detection) in mg/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Precision:  0.01
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  K
+	Attribute Label:  Potassium
+	Attribute Definition:  Potassium (up to 1994 by atomic absorption spectroscopy; after 1994 by ion chromatography with conductivity detection) in ug N/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Mg
+	Attribute Label:  Magnesium
+	Attribute Definition:  Magnesium (up to 1994 by atomic absorption spectroscopy; after 1994 by ion chromatography with conductivity detection) in mg/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Ca
+	Attribute Label:  Calcium
+	Attribute Definition:  Calcium (up to 1994 by atomic absorption spectroscopy; after 1994 by ion chromatography with conductivity detection) in mg/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  NH4-N
+	Attribute Label:  Ammonium Nitrogen
+	Attribute Definition:  Ammonium Nitrogen[automated colorimetric analysis (phenolhypochlorite)] in ug N/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  microgramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  PO4-P
+	Attribute Label:  Phosphate
+	Attribute Definition:  Phosphate [automated colorimetric analysis (molybdate blue)] in ug P/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  microgramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  DOC
+	Attribute Label:  Dissolved organic carbon
+	Attribute Definition:  Amount of dissolved organic carbon in the stream water ion milligrams carbon per liter (mg C/L)
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Precision:  0.01
+		Number Type:  real
+	Missing Value Code: 
+
+
+	Attribute Name:  DIC
+	Attribute Label:  Dissolved Inorganic Carbon
+	Attribute Definition:  Dissolved Inorganic Carbon [by syringe stripping and infrared spectroscopy (Stainton 1973).] inmg C/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  TDN
+	Attribute Label:  Total Dissolved Nitrogen
+	Attribute Definition:  Total Digestible Nutrients (prior to 1998 by persulfate oxidation and automated colorimetric analysis; after 1998 by high temperature catalytic oxidation with chemiluminescent detection) inmg N/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  TDP
+	Attribute Label:  Total Dissolved Phosphate
+	Attribute Definition:  Total Dissolved Phosphate (by persulfate digestion followed by automated colorimetric analysis) in ug P/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  microgramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  SiO2
+	Attribute Label:  Silica
+	Attribute Definition:  Silica [automated colorimetric analysis (molybdate blue)] in mg SiO2/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  DON
+	Attribute Label:  Dissolved Organic Nitrogen
+	Attribute Definition:  Dissolved Organic Nitrogen (by difference (TDN - NO3-N - NH4-N)) in mg N/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  TSS
+	Attribute Label:  Total Suspended Sediments in mg/L - Gravemetric method, dried at 105 degrees C
+	Attribute Definition:  Total Suspended Sediments in mg/L - Gravemetric method, dried at 105 degrees C
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  ChlorideCode
+	Attribute Label:  Code indicating if Chloride is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Chloride is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Chloride is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  NitrateCode
+	Attribute Label:  Code indicating if Nitrate is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Nitrate is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Nitrate is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  SulfateCode
+	Attribute Label:  Code indicating if Sulfate is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Sulfate is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Sulfate is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  SodiumCode
+	Attribute Label:  Code indicating if Sodium is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Sodium is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Sodium is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  PotassiumCode
+	Attribute Label:  Code indicating if Potassium is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Potassium is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Potassium is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  MagnesiumCode
+	Attribute Label:  Code indicating if Magnesium is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Magnesium is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Magnesium is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  CalciumCode
+	Attribute Label:  Code indicating if Calcium is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Calcium is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Calcium is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  NH4Code
+	Attribute Label:  Code indicating if NH4 is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if NH4 is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if NH4 is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  PO4Code
+	Attribute Label:  Code indicating if PO4 is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if PO4 is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if PO4 is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  DOCCode
+	Attribute Label:  Code indicating if DOC is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if DOC is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if DOC is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  DICCode
+	Attribute Label:  Code indicating if DIC is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if DIC is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if DIC is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  TDNCode
+	Attribute Label:  Code indicating if TDN is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if TDN is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if TDN is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  SiO2Code
+	Attribute Label:  Code indicating if SiO2 is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if SiO2 is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if SiO2 is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  DONCode
+	Attribute Label:  Code indicating if DON is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if DON is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if DON is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  Sample_ID
+	Attribute Label:  Watershed or Collector's location
+	Attribute Definition:  Watershed or Collector's location where the sample is taken
+	Storage Type:  string
+	Measurement Scale: 
+		Watershed or Collector's location where the sample is taken
+	Missing Value Code: 
+
+
+	Attribute Name:  Code
+	Attribute Label:  Sample Code
+	Attribute Definition:  Numeric code of sample assigned at ITES
+	Storage Type:  
+	Measurement Scale: 
+		Units:  dimensionless
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Sample_Date
+	Attribute Label:  Sample Date
+	Attribute Definition:  Date when the sample was collected
+	Storage Type:  date
+	Measurement Scale: 
+	Missing Value Code: 
+
+
+	Attribute Name:  Sample_Time
+	Attribute Label:  Sample Time
+	Attribute Definition:  Time where sample was collected in the field
+	Storage Type:  
+	Measurement Scale: 
+		Units:		dimmessionless
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Gage_Ht
+	Attribute Label:  Gage height
+	Attribute Definition:  The height of the water surface above the gage datum (zero point) at sampling time (in meters)
+	Storage Type:  
+	Measurement Scale: 
+		Units:  meter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Temp
+	Attribute Label:  Temperature of water sample
+	Attribute Definition:  Temperature of the sample collected
+	Storage Type:  
+	Measurement Scale: 
+		Units:  celsius
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  pH
+	Attribute Label:  pH Electrometric with combination electrode
+	Attribute Definition:  pH (Electrometric with combination electrode)
+	Storage Type:  
+	Measurement Scale: 
+		Units:  dimensionless
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Cond
+	Attribute Label:  Conductivity
+	Attribute Definition:  Conductivity (Conductivity bridge in micro siemens/cm )
+	Storage Type:  
+	Measurement Scale: 
+		Units:		microSiemensPerCentimeter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Cl
+	Attribute Label:  Chloride
+	Attribute Definition:  Chloride (up to 1989 by automated colorimetric analysis (thiocyanate); after 1989 by liquid chromatography with conductivity detection) in mg Cl/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  NO3-N
+	Attribute Label:  Nitrate
+	Attribute Definition:  Amount of dissolved nitrate in the stream water in micrograms nitrogen per liter (ug N/L)
+	Storage Type:  
+	Measurement Scale: 
+		Units:  microgramsPerLiter
+		Precision:  0.1
+		Number Type:  real
+	Missing Value Code: 
+
+
+	Attribute Name:  SO4-S
+	Attribute Label:  Sulfate
+	Attribute Definition:  Sulfate (Liquid chromatography; conductivity detection) in mg/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Na
+	Attribute Label:  Sodium
+	Attribute Definition:  Sodium (up to 1994 by atomic absorption spectroscopy; after 1994 by ion chromatography with conductivity detection) in mg/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Precision:  0.01
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  K
+	Attribute Label:  Potassium
+	Attribute Definition:  Potassium (up to 1994 by atomic absorption spectroscopy; after 1994 by ion chromatography with conductivity detection) in ug N/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Mg
+	Attribute Label:  Magnesium
+	Attribute Definition:  Magnesium (up to 1994 by atomic absorption spectroscopy; after 1994 by ion chromatography with conductivity detection) in mg/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Ca
+	Attribute Label:  Calcium
+	Attribute Definition:  Calcium (up to 1994 by atomic absorption spectroscopy; after 1994 by ion chromatography with conductivity detection) in mg/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  NH4-N
+	Attribute Label:  Ammonium Nitrogen
+	Attribute Definition:  Ammonium Nitrogen[automated colorimetric analysis (phenolhypochlorite)] in ug N/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  microgramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  PO4-P
+	Attribute Label:  Phosphate
+	Attribute Definition:  Phosphate [automated colorimetric analysis (molybdate blue)] in ug P/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  microgramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  DOC
+	Attribute Label:  Dissolved organic carbon
+	Attribute Definition:  Amount of dissolved organic carbon in the stream water ion milligrams carbon per liter (mg C/L)
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Precision:  0.01
+		Number Type:  real
+	Missing Value Code: 
+
+
+	Attribute Name:  DIC
+	Attribute Label:  Dissolved Inorganic Carbon
+	Attribute Definition:  Dissolved Inorganic Carbon [by syringe stripping and infrared spectroscopy (Stainton 1973).] inmg C/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  TDN
+	Attribute Label:  Total Dissolved Nitrogen
+	Attribute Definition:  Total Digestible Nutrients (prior to 1998 by persulfate oxidation and automated colorimetric analysis; after 1998 by high temperature catalytic oxidation with chemiluminescent detection) inmg N/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  TDP
+	Attribute Label:  Total Dissolved Phosphate
+	Attribute Definition:  Total Dissolved Phosphate (by persulfate digestion followed by automated colorimetric analysis) in ug P/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  microgramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  SiO2
+	Attribute Label:  Silica
+	Attribute Definition:  Silica [automated colorimetric analysis (molybdate blue)] in mg SiO2/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  DON
+	Attribute Label:  Dissolved Organic Nitrogen
+	Attribute Definition:  Dissolved Organic Nitrogen (by difference (TDN - NO3-N - NH4-N)) in mg N/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  TSS
+	Attribute Label:  Total Suspended Sediments in mg/L - Gravemetric method, dried at 105 degrees C
+	Attribute Definition:  Total Suspended Sediments in mg/L - Gravemetric method, dried at 105 degrees C
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  ChlorideCode
+	Attribute Label:  Code indicating if Chloride is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Chloride is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Chloride is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  NitrateCode
+	Attribute Label:  Code indicating if Nitrate is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Nitrate is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Nitrate is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  SulfateCode
+	Attribute Label:  Code indicating if Sulfate is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Sulfate is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Sulfate is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  SodiumCode
+	Attribute Label:  Code indicating if Sodium is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Sodium is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Sodium is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  PotassiumCode
+	Attribute Label:  Code indicating if Potassium is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Potassium is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Potassium is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  MagnesiumCode
+	Attribute Label:  Code indicating if Magnesium is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Magnesium is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Magnesium is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  CalciumCode
+	Attribute Label:  Code indicating if Calcium is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Calcium is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Calcium is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  NH4Code
+	Attribute Label:  Code indicating if NH4 is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if NH4 is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if NH4 is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  PO4Code
+	Attribute Label:  Code indicating if PO4 is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if PO4 is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if PO4 is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  DOCCode
+	Attribute Label:  Code indicating if DOC is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if DOC is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if DOC is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  DICCode
+	Attribute Label:  Code indicating if DIC is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if DIC is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if DIC is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  TDNCode
+	Attribute Label:  Code indicating if TDN is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if TDN is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if TDN is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  SiO2Code
+	Attribute Label:  Code indicating if SiO2 is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if SiO2 is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if SiO2 is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  DONCode
+	Attribute Label:  Code indicating if DON is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if DON is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if DON is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  Sample_ID
+	Attribute Label:  Watershed or Collector's location
+	Attribute Definition:  Watershed or Collector's location where the sample is taken
+	Storage Type:  string
+	Measurement Scale: 
+		Watershed or Collector's location where the sample is taken
+	Missing Value Code: 
+
+
+	Attribute Name:  Code
+	Attribute Label:  Sample Code
+	Attribute Definition:  Numeric code of sample assigned at ITES
+	Storage Type:  
+	Measurement Scale: 
+		Units:  dimensionless
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Sample_Date
+	Attribute Label:  Sample Date
+	Attribute Definition:  Date when the sample was collected
+	Storage Type:  date
+	Measurement Scale: 
+	Missing Value Code: 
+
+
+	Attribute Name:  Sample_Time
+	Attribute Label:  Sample Time
+	Attribute Definition:  Time where sample was collected in the field
+	Storage Type:  
+	Measurement Scale: 
+		Units:		dimmessionless
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Gage_Ht
+	Attribute Label:  Gage height
+	Attribute Definition:  The height of the water surface above the gage datum (zero point) at sampling time (in meters)
+	Storage Type:  
+	Measurement Scale: 
+		Units:  meter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Temp
+	Attribute Label:  Temperature of water sample
+	Attribute Definition:  Temperature of the sample collected
+	Storage Type:  
+	Measurement Scale: 
+		Units:  celsius
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  pH
+	Attribute Label:  pH Electrometric with combination electrode
+	Attribute Definition:  pH (Electrometric with combination electrode)
+	Storage Type:  
+	Measurement Scale: 
+		Units:  dimensionless
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Cond
+	Attribute Label:  Conductivity
+	Attribute Definition:  Conductivity (Conductivity bridge in micro siemens/cm )
+	Storage Type:  
+	Measurement Scale: 
+		Units:		microSiemensPerCentimeter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Cl
+	Attribute Label:  Chloride
+	Attribute Definition:  Chloride (up to 1989 by automated colorimetric analysis (thiocyanate); after 1989 by liquid chromatography with conductivity detection) in mg Cl/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  NO3-N
+	Attribute Label:  Nitrate
+	Attribute Definition:  Amount of dissolved nitrate in the stream water in micrograms nitrogen per liter (ug N/L)
+	Storage Type:  
+	Measurement Scale: 
+		Units:  microgramsPerLiter
+		Precision:  0.1
+		Number Type:  real
+	Missing Value Code: 
+
+
+	Attribute Name:  SO4-S
+	Attribute Label:  Sulfate
+	Attribute Definition:  Sulfate (Liquid chromatography; conductivity detection) in mg/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Na
+	Attribute Label:  Sodium
+	Attribute Definition:  Sodium (up to 1994 by atomic absorption spectroscopy; after 1994 by ion chromatography with conductivity detection) in mg/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Precision:  0.01
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  K
+	Attribute Label:  Potassium
+	Attribute Definition:  Potassium (up to 1994 by atomic absorption spectroscopy; after 1994 by ion chromatography with conductivity detection) in ug N/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Mg
+	Attribute Label:  Magnesium
+	Attribute Definition:  Magnesium (up to 1994 by atomic absorption spectroscopy; after 1994 by ion chromatography with conductivity detection) in mg/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Ca
+	Attribute Label:  Calcium
+	Attribute Definition:  Calcium (up to 1994 by atomic absorption spectroscopy; after 1994 by ion chromatography with conductivity detection) in mg/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  NH4-N
+	Attribute Label:  Ammonium Nitrogen
+	Attribute Definition:  Ammonium Nitrogen[automated colorimetric analysis (phenolhypochlorite)] in ug N/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  microgramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  PO4-P
+	Attribute Label:  Phosphate
+	Attribute Definition:  Phosphate [automated colorimetric analysis (molybdate blue)] in ug P/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  microgramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  DOC
+	Attribute Label:  Dissolved organic carbon
+	Attribute Definition:  Amount of dissolved organic carbon in the stream water ion milligrams carbon per liter (mg C/L)
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Precision:  0.01
+		Number Type:  real
+	Missing Value Code: 
+
+
+	Attribute Name:  DIC
+	Attribute Label:  Dissolved Inorganic Carbon
+	Attribute Definition:  Dissolved Inorganic Carbon [by syringe stripping and infrared spectroscopy (Stainton 1973).] inmg C/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  TDN
+	Attribute Label:  Total Dissolved Nitrogen
+	Attribute Definition:  Total Digestible Nutrients (prior to 1998 by persulfate oxidation and automated colorimetric analysis; after 1998 by high temperature catalytic oxidation with chemiluminescent detection) inmg N/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  TDP
+	Attribute Label:  Total Dissolved Phosphate
+	Attribute Definition:  Total Dissolved Phosphate (by persulfate digestion followed by automated colorimetric analysis) in ug P/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  microgramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  SiO2
+	Attribute Label:  Silica
+	Attribute Definition:  Silica [automated colorimetric analysis (molybdate blue)] in mg SiO2/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  DON
+	Attribute Label:  Dissolved Organic Nitrogen
+	Attribute Definition:  Dissolved Organic Nitrogen (by difference (TDN - NO3-N - NH4-N)) in mg N/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  TSS
+	Attribute Label:  Total Suspended Sediments in mg/L - Gravemetric method, dried at 105 degrees C
+	Attribute Definition:  Total Suspended Sediments in mg/L - Gravemetric method, dried at 105 degrees C
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  ChlorideCode
+	Attribute Label:  Code indicating if Chloride is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Chloride is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Chloride is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  NitrateCode
+	Attribute Label:  Code indicating if Nitrate is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Nitrate is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Nitrate is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  SulfateCode
+	Attribute Label:  Code indicating if Sulfate is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Sulfate is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Sulfate is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  SodiumCode
+	Attribute Label:  Code indicating if Sodium is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Sodium is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Sodium is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  PotassiumCode
+	Attribute Label:  Code indicating if Potassium is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Potassium is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Potassium is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  MagnesiumCode
+	Attribute Label:  Code indicating if Magnesium is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Magnesium is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Magnesium is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  CalciumCode
+	Attribute Label:  Code indicating if Calcium is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Calcium is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Calcium is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  NH4Code
+	Attribute Label:  Code indicating if NH4 is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if NH4 is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if NH4 is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  PO4Code
+	Attribute Label:  Code indicating if PO4 is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if PO4 is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if PO4 is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  DOCCode
+	Attribute Label:  Code indicating if DOC is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if DOC is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if DOC is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  DICCode
+	Attribute Label:  Code indicating if DIC is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if DIC is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if DIC is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  TDNCode
+	Attribute Label:  Code indicating if TDN is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if TDN is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if TDN is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  SiO2Code
+	Attribute Label:  Code indicating if SiO2 is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if SiO2 is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if SiO2 is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  DONCode
+	Attribute Label:  Code indicating if DON is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if DON is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if DON is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  Sample_ID
+	Attribute Label:  Watershed or Collector's location
+	Attribute Definition:  Watershed or Collector's location where the sample is taken
+	Storage Type:  string
+	Measurement Scale: 
+		Watershed or Collector's location where the sample is taken
+	Missing Value Code: 
+
+
+	Attribute Name:  Code
+	Attribute Label:  Sample Code
+	Attribute Definition:  Numeric code of sample assigned at ITES
+	Storage Type:  
+	Measurement Scale: 
+		Units:  dimensionless
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Sample_Date
+	Attribute Label:  Sample Date
+	Attribute Definition:  Date when the sample was collected
+	Storage Type:  date
+	Measurement Scale: 
+	Missing Value Code: 
+
+
+	Attribute Name:  Sample_Time
+	Attribute Label:  Sample Time
+	Attribute Definition:  Time where sample was collected in the field
+	Storage Type:  
+	Measurement Scale: 
+		Units:		dimmessionless
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Gage_Ht
+	Attribute Label:  Gage height
+	Attribute Definition:  The height of the water surface above the gage datum (zero point) at sampling time (in meters)
+	Storage Type:  
+	Measurement Scale: 
+		Units:  meter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Temp
+	Attribute Label:  Temperature of water sample
+	Attribute Definition:  Temperature of the sample collected
+	Storage Type:  
+	Measurement Scale: 
+		Units:  celsius
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  pH
+	Attribute Label:  pH Electrometric with combination electrode
+	Attribute Definition:  pH (Electrometric with combination electrode)
+	Storage Type:  
+	Measurement Scale: 
+		Units:  dimensionless
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Cond
+	Attribute Label:  Conductivity
+	Attribute Definition:  Conductivity (Conductivity bridge in micro siemens/cm )
+	Storage Type:  
+	Measurement Scale: 
+		Units:		microSiemensPerCentimeter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Cl
+	Attribute Label:  Chloride
+	Attribute Definition:  Chloride (up to 1989 by automated colorimetric analysis (thiocyanate); after 1989 by liquid chromatography with conductivity detection) in mg Cl/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  NO3-N
+	Attribute Label:  Nitrate
+	Attribute Definition:  Amount of dissolved nitrate in the stream water in micrograms nitrogen per liter (ug N/L)
+	Storage Type:  
+	Measurement Scale: 
+		Units:  microgramsPerLiter
+		Precision:  0.1
+		Number Type:  real
+	Missing Value Code: 
+
+
+	Attribute Name:  SO4-S
+	Attribute Label:  Sulfate
+	Attribute Definition:  Sulfate (Liquid chromatography; conductivity detection) in mg/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Na
+	Attribute Label:  Sodium
+	Attribute Definition:  Sodium (up to 1994 by atomic absorption spectroscopy; after 1994 by ion chromatography with conductivity detection) in mg/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Precision:  0.01
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  K
+	Attribute Label:  Potassium
+	Attribute Definition:  Potassium (up to 1994 by atomic absorption spectroscopy; after 1994 by ion chromatography with conductivity detection) in ug N/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Mg
+	Attribute Label:  Magnesium
+	Attribute Definition:  Magnesium (up to 1994 by atomic absorption spectroscopy; after 1994 by ion chromatography with conductivity detection) in mg/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Ca
+	Attribute Label:  Calcium
+	Attribute Definition:  Calcium (up to 1994 by atomic absorption spectroscopy; after 1994 by ion chromatography with conductivity detection) in mg/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  NH4-N
+	Attribute Label:  Ammonium Nitrogen
+	Attribute Definition:  Ammonium Nitrogen[automated colorimetric analysis (phenolhypochlorite)] in ug N/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  microgramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  PO4-P
+	Attribute Label:  Phosphate
+	Attribute Definition:  Phosphate [automated colorimetric analysis (molybdate blue)] in ug P/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  microgramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  DOC
+	Attribute Label:  Dissolved organic carbon
+	Attribute Definition:  Amount of dissolved organic carbon in the stream water ion milligrams carbon per liter (mg C/L)
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Precision:  0.01
+		Number Type:  real
+	Missing Value Code: 
+
+
+	Attribute Name:  DIC
+	Attribute Label:  Dissolved Inorganic Carbon
+	Attribute Definition:  Dissolved Inorganic Carbon [by syringe stripping and infrared spectroscopy (Stainton 1973).] inmg C/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  TDN
+	Attribute Label:  Total Dissolved Nitrogen
+	Attribute Definition:  Total Digestible Nutrients (prior to 1998 by persulfate oxidation and automated colorimetric analysis; after 1998 by high temperature catalytic oxidation with chemiluminescent detection) inmg N/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  TDP
+	Attribute Label:  Total Dissolved Phosphate
+	Attribute Definition:  Total Dissolved Phosphate (by persulfate digestion followed by automated colorimetric analysis) in ug P/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  microgramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  SiO2
+	Attribute Label:  Silica
+	Attribute Definition:  Silica [automated colorimetric analysis (molybdate blue)] in mg SiO2/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  DON
+	Attribute Label:  Dissolved Organic Nitrogen
+	Attribute Definition:  Dissolved Organic Nitrogen (by difference (TDN - NO3-N - NH4-N)) in mg N/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  TSS
+	Attribute Label:  Total Suspended Sediments in mg/L - Gravemetric method, dried at 105 degrees C
+	Attribute Definition:  Total Suspended Sediments in mg/L - Gravemetric method, dried at 105 degrees C
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  ChlorideCode
+	Attribute Label:  Code indicating if Chloride is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Chloride is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Chloride is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  NitrateCode
+	Attribute Label:  Code indicating if Nitrate is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Nitrate is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Nitrate is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  SulfateCode
+	Attribute Label:  Code indicating if Sulfate is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Sulfate is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Sulfate is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  SodiumCode
+	Attribute Label:  Code indicating if Sodium is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Sodium is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Sodium is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  PotassiumCode
+	Attribute Label:  Code indicating if Potassium is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Potassium is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Potassium is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  MagnesiumCode
+	Attribute Label:  Code indicating if Magnesium is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Magnesium is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Magnesium is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  CalciumCode
+	Attribute Label:  Code indicating if Calcium is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Calcium is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Calcium is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  NH4Code
+	Attribute Label:  Code indicating if NH4 is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if NH4 is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if NH4 is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  PO4Code
+	Attribute Label:  Code indicating if PO4 is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if PO4 is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if PO4 is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  DOCCode
+	Attribute Label:  Code indicating if DOC is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if DOC is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if DOC is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  DICCode
+	Attribute Label:  Code indicating if DIC is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if DIC is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if DIC is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  TDNCode
+	Attribute Label:  Code indicating if TDN is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if TDN is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if TDN is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  SiO2Code
+	Attribute Label:  Code indicating if SiO2 is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if SiO2 is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if SiO2 is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  DONCode
+	Attribute Label:  Code indicating if DON is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if DON is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if DON is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  Sample_ID
+	Attribute Label:  Watershed or Collector's location
+	Attribute Definition:  Watershed or Collector's location where the sample is taken
+	Storage Type:  string
+	Measurement Scale: 
+		Watershed or Collector's location where the sample is taken
+	Missing Value Code: 
+
+
+	Attribute Name:  Code
+	Attribute Label:  Sample Code
+	Attribute Definition:  Numeric code of sample assigned at ITES
+	Storage Type:  
+	Measurement Scale: 
+		Units:  dimensionless
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Sample_Date
+	Attribute Label:  Sample Date
+	Attribute Definition:  Date when the sample was collected
+	Storage Type:  date
+	Measurement Scale: 
+	Missing Value Code: 
+
+
+	Attribute Name:  Sample_Time
+	Attribute Label:  Sample Time
+	Attribute Definition:  Time where sample was collected in the field
+	Storage Type:  
+	Measurement Scale: 
+		Units:		dimmessionless
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Gage_Ht
+	Attribute Label:  Gage height
+	Attribute Definition:  The height of the water surface above the gage datum (zero point) at sampling time (in meters)
+	Storage Type:  
+	Measurement Scale: 
+		Units:  meter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Temp
+	Attribute Label:  Temperature of water sample
+	Attribute Definition:  Temperature of the sample collected
+	Storage Type:  
+	Measurement Scale: 
+		Units:  celsius
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  pH
+	Attribute Label:  pH Electrometric with combination electrode
+	Attribute Definition:  pH (Electrometric with combination electrode)
+	Storage Type:  
+	Measurement Scale: 
+		Units:  dimensionless
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Cond
+	Attribute Label:  Conductivity
+	Attribute Definition:  Conductivity (Conductivity bridge in micro siemens/cm )
+	Storage Type:  
+	Measurement Scale: 
+		Units:		microSiemensPerCentimeter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Cl
+	Attribute Label:  Chloride
+	Attribute Definition:  Chloride (up to 1989 by automated colorimetric analysis (thiocyanate); after 1989 by liquid chromatography with conductivity detection) in mg Cl/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  NO3-N
+	Attribute Label:  Nitrate
+	Attribute Definition:  Amount of dissolved nitrate in the stream water in micrograms nitrogen per liter (ug N/L)
+	Storage Type:  
+	Measurement Scale: 
+		Units:  microgramsPerLiter
+		Precision:  0.1
+		Number Type:  real
+	Missing Value Code: 
+
+
+	Attribute Name:  SO4-S
+	Attribute Label:  Sulfate
+	Attribute Definition:  Sulfate (Liquid chromatography; conductivity detection) in mg/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Na
+	Attribute Label:  Sodium
+	Attribute Definition:  Sodium (up to 1994 by atomic absorption spectroscopy; after 1994 by ion chromatography with conductivity detection) in mg/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Precision:  0.01
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  K
+	Attribute Label:  Potassium
+	Attribute Definition:  Potassium (up to 1994 by atomic absorption spectroscopy; after 1994 by ion chromatography with conductivity detection) in ug N/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Mg
+	Attribute Label:  Magnesium
+	Attribute Definition:  Magnesium (up to 1994 by atomic absorption spectroscopy; after 1994 by ion chromatography with conductivity detection) in mg/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Ca
+	Attribute Label:  Calcium
+	Attribute Definition:  Calcium (up to 1994 by atomic absorption spectroscopy; after 1994 by ion chromatography with conductivity detection) in mg/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  NH4-N
+	Attribute Label:  Ammonium Nitrogen
+	Attribute Definition:  Ammonium Nitrogen[automated colorimetric analysis (phenolhypochlorite)] in ug N/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  microgramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  PO4-P
+	Attribute Label:  Phosphate
+	Attribute Definition:  Phosphate [automated colorimetric analysis (molybdate blue)] in ug P/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  microgramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  DOC
+	Attribute Label:  Dissolved organic carbon
+	Attribute Definition:  Amount of dissolved organic carbon in the stream water ion milligrams carbon per liter (mg C/L)
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Precision:  0.01
+		Number Type:  real
+	Missing Value Code: 
+
+
+	Attribute Name:  DIC
+	Attribute Label:  Dissolved Inorganic Carbon
+	Attribute Definition:  Dissolved Inorganic Carbon [by syringe stripping and infrared spectroscopy (Stainton 1973).] inmg C/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  TDN
+	Attribute Label:  Total Dissolved Nitrogen
+	Attribute Definition:  Total Digestible Nutrients (prior to 1998 by persulfate oxidation and automated colorimetric analysis; after 1998 by high temperature catalytic oxidation with chemiluminescent detection) inmg N/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  TDP
+	Attribute Label:  Total Dissolved Phosphate
+	Attribute Definition:  Total Dissolved Phosphate (by persulfate digestion followed by automated colorimetric analysis) in ug P/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  microgramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  SiO2
+	Attribute Label:  Silica
+	Attribute Definition:  Silica [automated colorimetric analysis (molybdate blue)] in mg SiO2/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  DON
+	Attribute Label:  Dissolved Organic Nitrogen
+	Attribute Definition:  Dissolved Organic Nitrogen (by difference (TDN - NO3-N - NH4-N)) in mg N/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  TSS
+	Attribute Label:  Total Suspended Sediments in mg/L - Gravemetric method, dried at 105 degrees C
+	Attribute Definition:  Total Suspended Sediments in mg/L - Gravemetric method, dried at 105 degrees C
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  ChlorideCode
+	Attribute Label:  Code indicating if Chloride is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Chloride is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Chloride is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  NitrateCode
+	Attribute Label:  Code indicating if Nitrate is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Nitrate is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Nitrate is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  SulfateCode
+	Attribute Label:  Code indicating if Sulfate is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Sulfate is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Sulfate is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  SodiumCode
+	Attribute Label:  Code indicating if Sodium is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Sodium is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Sodium is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  PotassiumCode
+	Attribute Label:  Code indicating if Potassium is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Potassium is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Potassium is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  MagnesiumCode
+	Attribute Label:  Code indicating if Magnesium is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Magnesium is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Magnesium is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  CalciumCode
+	Attribute Label:  Code indicating if Calcium is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Calcium is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Calcium is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  NH4Code
+	Attribute Label:  Code indicating if NH4 is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if NH4 is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if NH4 is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  PO4Code
+	Attribute Label:  Code indicating if PO4 is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if PO4 is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if PO4 is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  DOCCode
+	Attribute Label:  Code indicating if DOC is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if DOC is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if DOC is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  DICCode
+	Attribute Label:  Code indicating if DIC is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if DIC is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if DIC is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  TDNCode
+	Attribute Label:  Code indicating if TDN is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if TDN is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if TDN is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  SiO2Code
+	Attribute Label:  Code indicating if SiO2 is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if SiO2 is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if SiO2 is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  DONCode
+	Attribute Label:  Code indicating if DON is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if DON is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if DON is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  Sample_ID
+	Attribute Label:  Watershed or Collector's location
+	Attribute Definition:  Watershed or Collector's location where the sample is taken
+	Storage Type:  string
+	Measurement Scale: 
+		Watershed or Collector's location where the sample is taken
+	Missing Value Code: 
+
+
+	Attribute Name:  Code
+	Attribute Label:  Sample Code
+	Attribute Definition:  Numeric code of sample assigned at ITES
+	Storage Type:  
+	Measurement Scale: 
+		Units:  dimensionless
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Sample_Date
+	Attribute Label:  Sample Date
+	Attribute Definition:  Date when the sample was collected
+	Storage Type:  date
+	Measurement Scale: 
+	Missing Value Code: 
+
+
+	Attribute Name:  Sample_Time
+	Attribute Label:  Sample Time
+	Attribute Definition:  Time where sample was collected in the field
+	Storage Type:  
+	Measurement Scale: 
+		Units:		dimmessionless
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Gage_Ht
+	Attribute Label:  Gage height
+	Attribute Definition:  The height of the water surface above the gage datum (zero point) at sampling time (in meters)
+	Storage Type:  
+	Measurement Scale: 
+		Units:  meter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Temp
+	Attribute Label:  Temperature of water sample
+	Attribute Definition:  Temperature of the sample collected
+	Storage Type:  
+	Measurement Scale: 
+		Units:  celsius
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  pH
+	Attribute Label:  pH Electrometric with combination electrode
+	Attribute Definition:  pH (Electrometric with combination electrode)
+	Storage Type:  
+	Measurement Scale: 
+		Units:  dimensionless
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Cond
+	Attribute Label:  Conductivity
+	Attribute Definition:  Conductivity (Conductivity bridge in micro siemens/cm )
+	Storage Type:  
+	Measurement Scale: 
+		Units:		microSiemensPerCentimeter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Cl
+	Attribute Label:  Chloride
+	Attribute Definition:  Chloride (up to 1989 by automated colorimetric analysis (thiocyanate); after 1989 by liquid chromatography with conductivity detection) in mg Cl/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  NO3-N
+	Attribute Label:  Nitrate
+	Attribute Definition:  Amount of dissolved nitrate in the stream water in micrograms nitrogen per liter (ug N/L)
+	Storage Type:  
+	Measurement Scale: 
+		Units:  microgramsPerLiter
+		Precision:  0.1
+		Number Type:  real
+	Missing Value Code: 
+
+
+	Attribute Name:  SO4-S
+	Attribute Label:  Sulfate
+	Attribute Definition:  Sulfate (Liquid chromatography; conductivity detection) in mg/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Na
+	Attribute Label:  Sodium
+	Attribute Definition:  Sodium (up to 1994 by atomic absorption spectroscopy; after 1994 by ion chromatography with conductivity detection) in mg/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Precision:  0.01
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  K
+	Attribute Label:  Potassium
+	Attribute Definition:  Potassium (up to 1994 by atomic absorption spectroscopy; after 1994 by ion chromatography with conductivity detection) in ug N/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Mg
+	Attribute Label:  Magnesium
+	Attribute Definition:  Magnesium (up to 1994 by atomic absorption spectroscopy; after 1994 by ion chromatography with conductivity detection) in mg/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Ca
+	Attribute Label:  Calcium
+	Attribute Definition:  Calcium (up to 1994 by atomic absorption spectroscopy; after 1994 by ion chromatography with conductivity detection) in mg/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  NH4-N
+	Attribute Label:  Ammonium Nitrogen
+	Attribute Definition:  Ammonium Nitrogen[automated colorimetric analysis (phenolhypochlorite)] in ug N/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  microgramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  PO4-P
+	Attribute Label:  Phosphate
+	Attribute Definition:  Phosphate [automated colorimetric analysis (molybdate blue)] in ug P/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  microgramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  DOC
+	Attribute Label:  Dissolved organic carbon
+	Attribute Definition:  Amount of dissolved organic carbon in the stream water ion milligrams carbon per liter (mg C/L)
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Precision:  0.01
+		Number Type:  real
+	Missing Value Code: 
+
+
+	Attribute Name:  DIC
+	Attribute Label:  Dissolved Inorganic Carbon
+	Attribute Definition:  Dissolved Inorganic Carbon [by syringe stripping and infrared spectroscopy (Stainton 1973).] inmg C/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  TDN
+	Attribute Label:  Total Dissolved Nitrogen
+	Attribute Definition:  Total Digestible Nutrients (prior to 1998 by persulfate oxidation and automated colorimetric analysis; after 1998 by high temperature catalytic oxidation with chemiluminescent detection) inmg N/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  TDP
+	Attribute Label:  Total Dissolved Phosphate
+	Attribute Definition:  Total Dissolved Phosphate (by persulfate digestion followed by automated colorimetric analysis) in ug P/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  microgramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  SiO2
+	Attribute Label:  Silica
+	Attribute Definition:  Silica [automated colorimetric analysis (molybdate blue)] in mg SiO2/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  DON
+	Attribute Label:  Dissolved Organic Nitrogen
+	Attribute Definition:  Dissolved Organic Nitrogen (by difference (TDN - NO3-N - NH4-N)) in mg N/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  TSS
+	Attribute Label:  Total Suspended Sediments in mg/L - Gravemetric method, dried at 105 degrees C
+	Attribute Definition:  Total Suspended Sediments in mg/L - Gravemetric method, dried at 105 degrees C
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  ChlorideCode
+	Attribute Label:  Code indicating if Chloride is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Chloride is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Chloride is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  NitrateCode
+	Attribute Label:  Code indicating if Nitrate is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Nitrate is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Nitrate is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  SulfateCode
+	Attribute Label:  Code indicating if Sulfate is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Sulfate is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Sulfate is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  SodiumCode
+	Attribute Label:  Code indicating if Sodium is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Sodium is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Sodium is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  PotassiumCode
+	Attribute Label:  Code indicating if Potassium is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Potassium is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Potassium is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  MagnesiumCode
+	Attribute Label:  Code indicating if Magnesium is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Magnesium is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Magnesium is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  CalciumCode
+	Attribute Label:  Code indicating if Calcium is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Calcium is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Calcium is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  NH4Code
+	Attribute Label:  Code indicating if NH4 is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if NH4 is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if NH4 is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  PO4Code
+	Attribute Label:  Code indicating if PO4 is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if PO4 is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if PO4 is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  DOCCode
+	Attribute Label:  Code indicating if DOC is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if DOC is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if DOC is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  DICCode
+	Attribute Label:  Code indicating if DIC is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if DIC is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if DIC is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  TDNCode
+	Attribute Label:  Code indicating if TDN is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if TDN is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if TDN is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  SiO2Code
+	Attribute Label:  Code indicating if SiO2 is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if SiO2 is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if SiO2 is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  DONCode
+	Attribute Label:  Code indicating if DON is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if DON is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if DON is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  Sample_ID
+	Attribute Label:  Watershed or Collector's location
+	Attribute Definition:  Watershed or Collector's location where the sample is taken
+	Storage Type:  string
+	Measurement Scale: 
+		Watershed or Collector's location where the sample is taken
+	Missing Value Code: 
+
+
+	Attribute Name:  Code
+	Attribute Label:  Sample Code
+	Attribute Definition:  Numeric code of sample assigned at ITES
+	Storage Type:  
+	Measurement Scale: 
+		Units:  dimensionless
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Sample_Date
+	Attribute Label:  Sample Date
+	Attribute Definition:  Date when the sample was collected
+	Storage Type:  date
+	Measurement Scale: 
+	Missing Value Code: 
+
+
+	Attribute Name:  Sample_Time
+	Attribute Label:  Sample Time
+	Attribute Definition:  Time where sample was collected in the field
+	Storage Type:  
+	Measurement Scale: 
+		Units:		dimmessionless
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Gage_Ht
+	Attribute Label:  Gage height
+	Attribute Definition:  The height of the water surface above the gage datum (zero point) at sampling time (in meters)
+	Storage Type:  
+	Measurement Scale: 
+		Units:  meter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Temp
+	Attribute Label:  Temperature of water sample
+	Attribute Definition:  Temperature of the sample collected
+	Storage Type:  
+	Measurement Scale: 
+		Units:  celsius
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  pH
+	Attribute Label:  pH Electrometric with combination electrode
+	Attribute Definition:  pH (Electrometric with combination electrode)
+	Storage Type:  
+	Measurement Scale: 
+		Units:  dimensionless
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Cond
+	Attribute Label:  Conductivity
+	Attribute Definition:  Conductivity (Conductivity bridge in micro siemens/cm )
+	Storage Type:  
+	Measurement Scale: 
+		Units:		microSiemensPerCentimeter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Cl
+	Attribute Label:  Chloride
+	Attribute Definition:  Chloride (up to 1989 by automated colorimetric analysis (thiocyanate); after 1989 by liquid chromatography with conductivity detection) in mg Cl/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  NO3-N
+	Attribute Label:  Nitrate
+	Attribute Definition:  Amount of dissolved nitrate in the stream water in micrograms nitrogen per liter (ug N/L)
+	Storage Type:  
+	Measurement Scale: 
+		Units:  microgramsPerLiter
+		Precision:  0.1
+		Number Type:  real
+	Missing Value Code: 
+
+
+	Attribute Name:  SO4-S
+	Attribute Label:  Sulfate
+	Attribute Definition:  Sulfate (Liquid chromatography; conductivity detection) in mg/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Na
+	Attribute Label:  Sodium
+	Attribute Definition:  Sodium (up to 1994 by atomic absorption spectroscopy; after 1994 by ion chromatography with conductivity detection) in mg/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Precision:  0.01
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  K
+	Attribute Label:  Potassium
+	Attribute Definition:  Potassium (up to 1994 by atomic absorption spectroscopy; after 1994 by ion chromatography with conductivity detection) in ug N/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Mg
+	Attribute Label:  Magnesium
+	Attribute Definition:  Magnesium (up to 1994 by atomic absorption spectroscopy; after 1994 by ion chromatography with conductivity detection) in mg/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Ca
+	Attribute Label:  Calcium
+	Attribute Definition:  Calcium (up to 1994 by atomic absorption spectroscopy; after 1994 by ion chromatography with conductivity detection) in mg/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  NH4-N
+	Attribute Label:  Ammonium Nitrogen
+	Attribute Definition:  Ammonium Nitrogen[automated colorimetric analysis (phenolhypochlorite)] in ug N/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  microgramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  PO4-P
+	Attribute Label:  Phosphate
+	Attribute Definition:  Phosphate [automated colorimetric analysis (molybdate blue)] in ug P/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  microgramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  DOC
+	Attribute Label:  Dissolved organic carbon
+	Attribute Definition:  Amount of dissolved organic carbon in the stream water ion milligrams carbon per liter (mg C/L)
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Precision:  0.01
+		Number Type:  real
+	Missing Value Code: 
+
+
+	Attribute Name:  DIC
+	Attribute Label:  Dissolved Inorganic Carbon
+	Attribute Definition:  Dissolved Inorganic Carbon [by syringe stripping and infrared spectroscopy (Stainton 1973).] inmg C/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  TDN
+	Attribute Label:  Total Dissolved Nitrogen
+	Attribute Definition:  Total Digestible Nutrients (prior to 1998 by persulfate oxidation and automated colorimetric analysis; after 1998 by high temperature catalytic oxidation with chemiluminescent detection) inmg N/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  TDP
+	Attribute Label:  Total Dissolved Phosphate
+	Attribute Definition:  Total Dissolved Phosphate (by persulfate digestion followed by automated colorimetric analysis) in ug P/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  microgramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  SiO2
+	Attribute Label:  Silica
+	Attribute Definition:  Silica [automated colorimetric analysis (molybdate blue)] in mg SiO2/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  DON
+	Attribute Label:  Dissolved Organic Nitrogen
+	Attribute Definition:  Dissolved Organic Nitrogen (by difference (TDN - NO3-N - NH4-N)) in mg N/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  TSS
+	Attribute Label:  Total Suspended Sediments in mg/L - Gravemetric method, dried at 105 degrees C
+	Attribute Definition:  Total Suspended Sediments in mg/L - Gravemetric method, dried at 105 degrees C
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  ChlorideCode
+	Attribute Label:  Code indicating if Chloride is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Chloride is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Chloride is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  NitrateCode
+	Attribute Label:  Code indicating if Nitrate is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Nitrate is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Nitrate is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  SulfateCode
+	Attribute Label:  Code indicating if Sulfate is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Sulfate is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Sulfate is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  SodiumCode
+	Attribute Label:  Code indicating if Sodium is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Sodium is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Sodium is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  PotassiumCode
+	Attribute Label:  Code indicating if Potassium is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Potassium is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Potassium is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  MagnesiumCode
+	Attribute Label:  Code indicating if Magnesium is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Magnesium is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Magnesium is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  CalciumCode
+	Attribute Label:  Code indicating if Calcium is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Calcium is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Calcium is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  NH4Code
+	Attribute Label:  Code indicating if NH4 is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if NH4 is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if NH4 is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  PO4Code
+	Attribute Label:  Code indicating if PO4 is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if PO4 is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if PO4 is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  DOCCode
+	Attribute Label:  Code indicating if DOC is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if DOC is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if DOC is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  DICCode
+	Attribute Label:  Code indicating if DIC is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if DIC is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if DIC is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  TDNCode
+	Attribute Label:  Code indicating if TDN is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if TDN is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if TDN is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  SiO2Code
+	Attribute Label:  Code indicating if SiO2 is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if SiO2 is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if SiO2 is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  DONCode
+	Attribute Label:  Code indicating if DON is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if DON is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if DON is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  Sample_ID
+	Attribute Label:  Watershed or Collector's location
+	Attribute Definition:  Watershed or Collector's location where the sample is taken
+	Storage Type:  string
+	Measurement Scale: 
+		Watershed or Collector's location where the sample is taken
+	Missing Value Code: 
+
+
+	Attribute Name:  Code
+	Attribute Label:  Sample Code
+	Attribute Definition:  Numeric code of sample assigned at ITES
+	Storage Type:  
+	Measurement Scale: 
+		Units:  dimensionless
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Sample_Date
+	Attribute Label:  Sample Date
+	Attribute Definition:  Date when the sample was collected
+	Storage Type:  date
+	Measurement Scale: 
+	Missing Value Code: 
+
+
+	Attribute Name:  Sample_Time
+	Attribute Label:  Sample Time
+	Attribute Definition:  Time where sample was collected in the field
+	Storage Type:  
+	Measurement Scale: 
+		Units:		dimmessionless
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Gage_Ht
+	Attribute Label:  Gage height
+	Attribute Definition:  The height of the water surface above the gage datum (zero point) at sampling time (in meters)
+	Storage Type:  
+	Measurement Scale: 
+		Units:  meter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Temp
+	Attribute Label:  Temperature of water sample
+	Attribute Definition:  Temperature of the sample collected
+	Storage Type:  
+	Measurement Scale: 
+		Units:  celsius
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  pH
+	Attribute Label:  pH Electrometric with combination electrode
+	Attribute Definition:  pH (Electrometric with combination electrode)
+	Storage Type:  
+	Measurement Scale: 
+		Units:  dimensionless
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Cond
+	Attribute Label:  Conductivity
+	Attribute Definition:  Conductivity (Conductivity bridge in micro siemens/cm )
+	Storage Type:  
+	Measurement Scale: 
+		Units:		microSiemensPerCentimeter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Cl
+	Attribute Label:  Chloride
+	Attribute Definition:  Chloride (up to 1989 by automated colorimetric analysis (thiocyanate); after 1989 by liquid chromatography with conductivity detection) in mg Cl/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  NO3-N
+	Attribute Label:  Nitrate
+	Attribute Definition:  Amount of dissolved nitrate in the stream water in micrograms nitrogen per liter (ug N/L)
+	Storage Type:  
+	Measurement Scale: 
+		Units:  microgramsPerLiter
+		Precision:  0.1
+		Number Type:  real
+	Missing Value Code: 
+
+
+	Attribute Name:  SO4-S
+	Attribute Label:  Sulfate
+	Attribute Definition:  Sulfate (Liquid chromatography; conductivity detection) in mg/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Na
+	Attribute Label:  Sodium
+	Attribute Definition:  Sodium (up to 1994 by atomic absorption spectroscopy; after 1994 by ion chromatography with conductivity detection) in mg/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Precision:  0.01
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  K
+	Attribute Label:  Potassium
+	Attribute Definition:  Potassium (up to 1994 by atomic absorption spectroscopy; after 1994 by ion chromatography with conductivity detection) in ug N/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Mg
+	Attribute Label:  Magnesium
+	Attribute Definition:  Magnesium (up to 1994 by atomic absorption spectroscopy; after 1994 by ion chromatography with conductivity detection) in mg/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Ca
+	Attribute Label:  Calcium
+	Attribute Definition:  Calcium (up to 1994 by atomic absorption spectroscopy; after 1994 by ion chromatography with conductivity detection) in mg/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  NH4-N
+	Attribute Label:  Ammonium Nitrogen
+	Attribute Definition:  Ammonium Nitrogen[automated colorimetric analysis (phenolhypochlorite)] in ug N/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  microgramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  PO4-P
+	Attribute Label:  Phosphate
+	Attribute Definition:  Phosphate [automated colorimetric analysis (molybdate blue)] in ug P/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  microgramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  DOC
+	Attribute Label:  Dissolved organic carbon
+	Attribute Definition:  Amount of dissolved organic carbon in the stream water ion milligrams carbon per liter (mg C/L)
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Precision:  0.01
+		Number Type:  real
+	Missing Value Code: 
+
+
+	Attribute Name:  DIC
+	Attribute Label:  Dissolved Inorganic Carbon
+	Attribute Definition:  Dissolved Inorganic Carbon [by syringe stripping and infrared spectroscopy (Stainton 1973).] inmg C/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  TDN
+	Attribute Label:  Total Dissolved Nitrogen
+	Attribute Definition:  Total Digestible Nutrients (prior to 1998 by persulfate oxidation and automated colorimetric analysis; after 1998 by high temperature catalytic oxidation with chemiluminescent detection) inmg N/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  TDP
+	Attribute Label:  Total Dissolved Phosphate
+	Attribute Definition:  Total Dissolved Phosphate (by persulfate digestion followed by automated colorimetric analysis) in ug P/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  microgramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  SiO2
+	Attribute Label:  Silica
+	Attribute Definition:  Silica [automated colorimetric analysis (molybdate blue)] in mg SiO2/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  DON
+	Attribute Label:  Dissolved Organic Nitrogen
+	Attribute Definition:  Dissolved Organic Nitrogen (by difference (TDN - NO3-N - NH4-N)) in mg N/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  TSS
+	Attribute Label:  Total Suspended Sediments in mg/L - Gravemetric method, dried at 105 degrees C
+	Attribute Definition:  Total Suspended Sediments in mg/L - Gravemetric method, dried at 105 degrees C
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  ChlorideCode
+	Attribute Label:  Code indicating if Chloride is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Chloride is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Chloride is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  NitrateCode
+	Attribute Label:  Code indicating if Nitrate is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Nitrate is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Nitrate is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  SulfateCode
+	Attribute Label:  Code indicating if Sulfate is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Sulfate is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Sulfate is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  SodiumCode
+	Attribute Label:  Code indicating if Sodium is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Sodium is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Sodium is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  PotassiumCode
+	Attribute Label:  Code indicating if Potassium is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Potassium is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Potassium is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  MagnesiumCode
+	Attribute Label:  Code indicating if Magnesium is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Magnesium is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Magnesium is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  CalciumCode
+	Attribute Label:  Code indicating if Calcium is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Calcium is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Calcium is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  NH4Code
+	Attribute Label:  Code indicating if NH4 is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if NH4 is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if NH4 is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  PO4Code
+	Attribute Label:  Code indicating if PO4 is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if PO4 is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if PO4 is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  DOCCode
+	Attribute Label:  Code indicating if DOC is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if DOC is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if DOC is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  DICCode
+	Attribute Label:  Code indicating if DIC is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if DIC is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if DIC is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  TDNCode
+	Attribute Label:  Code indicating if TDN is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if TDN is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if TDN is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  SiO2Code
+	Attribute Label:  Code indicating if SiO2 is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if SiO2 is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if SiO2 is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  DONCode
+	Attribute Label:  Code indicating if DON is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if DON is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if DON is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  Sample_ID
+	Attribute Label:  Watershed or Collector's location
+	Attribute Definition:  Watershed or Collector's location where the sample is taken
+	Storage Type:  string
+	Measurement Scale: 
+		Watershed or Collector's location where the sample is taken
+	Missing Value Code: 
+
+
+	Attribute Name:  Code
+	Attribute Label:  Sample Code
+	Attribute Definition:  Numeric code of sample assigned at ITES
+	Storage Type:  
+	Measurement Scale: 
+		Units:  dimensionless
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Sample_Date
+	Attribute Label:  Sample Date
+	Attribute Definition:  Date when the sample was collected
+	Storage Type:  date
+	Measurement Scale: 
+	Missing Value Code: 
+
+
+	Attribute Name:  Sample_Time
+	Attribute Label:  Sample Time
+	Attribute Definition:  Time where sample was collected in the field
+	Storage Type:  
+	Measurement Scale: 
+		Units:		dimmessionless
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Gage_Ht
+	Attribute Label:  Gage height
+	Attribute Definition:  The height of the water surface above the gage datum (zero point) at sampling time (in meters)
+	Storage Type:  
+	Measurement Scale: 
+		Units:  meter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Temp
+	Attribute Label:  Temperature of water sample
+	Attribute Definition:  Temperature of the sample collected
+	Storage Type:  
+	Measurement Scale: 
+		Units:  celsius
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  pH
+	Attribute Label:  pH Electrometric with combination electrode
+	Attribute Definition:  pH (Electrometric with combination electrode)
+	Storage Type:  
+	Measurement Scale: 
+		Units:  dimensionless
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Cond
+	Attribute Label:  Conductivity
+	Attribute Definition:  Conductivity (Conductivity bridge in micro siemens/cm )
+	Storage Type:  
+	Measurement Scale: 
+		Units:		microSiemensPerCentimeter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Cl
+	Attribute Label:  Chloride
+	Attribute Definition:  Chloride (up to 1989 by automated colorimetric analysis (thiocyanate); after 1989 by liquid chromatography with conductivity detection) in mg Cl/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  NO3-N
+	Attribute Label:  Nitrate
+	Attribute Definition:  Amount of dissolved nitrate in the stream water in micrograms nitrogen per liter (ug N/L)
+	Storage Type:  
+	Measurement Scale: 
+		Units:  microgramsPerLiter
+		Precision:  0.1
+		Number Type:  real
+	Missing Value Code: 
+
+
+	Attribute Name:  SO4-S
+	Attribute Label:  Sulfate
+	Attribute Definition:  Sulfate (Liquid chromatography; conductivity detection) in mg/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Na
+	Attribute Label:  Sodium
+	Attribute Definition:  Sodium (up to 1994 by atomic absorption spectroscopy; after 1994 by ion chromatography with conductivity detection) in mg/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Precision:  0.01
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  K
+	Attribute Label:  Potassium
+	Attribute Definition:  Potassium (up to 1994 by atomic absorption spectroscopy; after 1994 by ion chromatography with conductivity detection) in ug N/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Mg
+	Attribute Label:  Magnesium
+	Attribute Definition:  Magnesium (up to 1994 by atomic absorption spectroscopy; after 1994 by ion chromatography with conductivity detection) in mg/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Ca
+	Attribute Label:  Calcium
+	Attribute Definition:  Calcium (up to 1994 by atomic absorption spectroscopy; after 1994 by ion chromatography with conductivity detection) in mg/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  NH4-N
+	Attribute Label:  Ammonium Nitrogen
+	Attribute Definition:  Ammonium Nitrogen[automated colorimetric analysis (phenolhypochlorite)] in ug N/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  microgramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  PO4-P
+	Attribute Label:  Phosphate
+	Attribute Definition:  Phosphate [automated colorimetric analysis (molybdate blue)] in ug P/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  microgramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  DOC
+	Attribute Label:  Dissolved organic carbon
+	Attribute Definition:  Amount of dissolved organic carbon in the stream water ion milligrams carbon per liter (mg C/L)
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Precision:  0.01
+		Number Type:  real
+	Missing Value Code: 
+
+
+	Attribute Name:  DIC
+	Attribute Label:  Dissolved Inorganic Carbon
+	Attribute Definition:  Dissolved Inorganic Carbon [by syringe stripping and infrared spectroscopy (Stainton 1973).] inmg C/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  TDN
+	Attribute Label:  Total Dissolved Nitrogen
+	Attribute Definition:  Total Digestible Nutrients (prior to 1998 by persulfate oxidation and automated colorimetric analysis; after 1998 by high temperature catalytic oxidation with chemiluminescent detection) inmg N/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  TDP
+	Attribute Label:  Total Dissolved Phosphate
+	Attribute Definition:  Total Dissolved Phosphate (by persulfate digestion followed by automated colorimetric analysis) in ug P/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  microgramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  SiO2
+	Attribute Label:  Silica
+	Attribute Definition:  Silica [automated colorimetric analysis (molybdate blue)] in mg SiO2/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  DON
+	Attribute Label:  Dissolved Organic Nitrogen
+	Attribute Definition:  Dissolved Organic Nitrogen (by difference (TDN - NO3-N - NH4-N)) in mg N/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  TSS
+	Attribute Label:  Total Suspended Sediments in mg/L - Gravemetric method, dried at 105 degrees C
+	Attribute Definition:  Total Suspended Sediments in mg/L - Gravemetric method, dried at 105 degrees C
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  ChlorideCode
+	Attribute Label:  Code indicating if Chloride is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Chloride is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Chloride is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  NitrateCode
+	Attribute Label:  Code indicating if Nitrate is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Nitrate is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Nitrate is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  SulfateCode
+	Attribute Label:  Code indicating if Sulfate is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Sulfate is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Sulfate is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  SodiumCode
+	Attribute Label:  Code indicating if Sodium is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Sodium is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Sodium is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  PotassiumCode
+	Attribute Label:  Code indicating if Potassium is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Potassium is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Potassium is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  MagnesiumCode
+	Attribute Label:  Code indicating if Magnesium is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Magnesium is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Magnesium is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  CalciumCode
+	Attribute Label:  Code indicating if Calcium is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Calcium is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Calcium is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  NH4Code
+	Attribute Label:  Code indicating if NH4 is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if NH4 is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if NH4 is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  PO4Code
+	Attribute Label:  Code indicating if PO4 is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if PO4 is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if PO4 is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  DOCCode
+	Attribute Label:  Code indicating if DOC is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if DOC is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if DOC is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  DICCode
+	Attribute Label:  Code indicating if DIC is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if DIC is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if DIC is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  TDNCode
+	Attribute Label:  Code indicating if TDN is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if TDN is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if TDN is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  SiO2Code
+	Attribute Label:  Code indicating if SiO2 is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if SiO2 is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if SiO2 is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  DONCode
+	Attribute Label:  Code indicating if DON is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if DON is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if DON is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  Sample_ID
+	Attribute Label:  Watershed or Collector's location
+	Attribute Definition:  Watershed or Collector's location where the sample is taken
+	Storage Type:  string
+	Measurement Scale: 
+		Watershed or Collector's location where the sample is taken
+	Missing Value Code: 
+
+
+	Attribute Name:  Code
+	Attribute Label:  Sample Code
+	Attribute Definition:  Numeric code of sample assigned at ITES
+	Storage Type:  
+	Measurement Scale: 
+		Units:  dimensionless
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Sample_Date
+	Attribute Label:  Sample Date
+	Attribute Definition:  Date when the sample was collected
+	Storage Type:  date
+	Measurement Scale: 
+	Missing Value Code: 
+
+
+	Attribute Name:  Sample_Time
+	Attribute Label:  Sample Time
+	Attribute Definition:  Time where sample was collected in the field
+	Storage Type:  
+	Measurement Scale: 
+		Units:		dimmessionless
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Gage_Ht
+	Attribute Label:  Gage height
+	Attribute Definition:  The height of the water surface above the gage datum (zero point) at sampling time (in meters)
+	Storage Type:  
+	Measurement Scale: 
+		Units:  meter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Temp
+	Attribute Label:  Temperature of water sample
+	Attribute Definition:  Temperature of the sample collected
+	Storage Type:  
+	Measurement Scale: 
+		Units:  celsius
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  pH
+	Attribute Label:  pH Electrometric with combination electrode
+	Attribute Definition:  pH (Electrometric with combination electrode)
+	Storage Type:  
+	Measurement Scale: 
+		Units:  dimensionless
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Cond
+	Attribute Label:  Conductivity
+	Attribute Definition:  Conductivity (Conductivity bridge in micro siemens/cm )
+	Storage Type:  
+	Measurement Scale: 
+		Units:		microSiemensPerCentimeter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Cl
+	Attribute Label:  Chloride
+	Attribute Definition:  Chloride (up to 1989 by automated colorimetric analysis (thiocyanate); after 1989 by liquid chromatography with conductivity detection) in mg Cl/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  NO3-N
+	Attribute Label:  Nitrate
+	Attribute Definition:  Amount of dissolved nitrate in the stream water in micrograms nitrogen per liter (ug N/L)
+	Storage Type:  
+	Measurement Scale: 
+		Units:  microgramsPerLiter
+		Precision:  0.1
+		Number Type:  real
+	Missing Value Code: 
+
+
+	Attribute Name:  SO4-S
+	Attribute Label:  Sulfate
+	Attribute Definition:  Sulfate (Liquid chromatography; conductivity detection) in mg/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Na
+	Attribute Label:  Sodium
+	Attribute Definition:  Sodium (up to 1994 by atomic absorption spectroscopy; after 1994 by ion chromatography with conductivity detection) in mg/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Precision:  0.01
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  K
+	Attribute Label:  Potassium
+	Attribute Definition:  Potassium (up to 1994 by atomic absorption spectroscopy; after 1994 by ion chromatography with conductivity detection) in ug N/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Mg
+	Attribute Label:  Magnesium
+	Attribute Definition:  Magnesium (up to 1994 by atomic absorption spectroscopy; after 1994 by ion chromatography with conductivity detection) in mg/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Ca
+	Attribute Label:  Calcium
+	Attribute Definition:  Calcium (up to 1994 by atomic absorption spectroscopy; after 1994 by ion chromatography with conductivity detection) in mg/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  NH4-N
+	Attribute Label:  Ammonium Nitrogen
+	Attribute Definition:  Ammonium Nitrogen[automated colorimetric analysis (phenolhypochlorite)] in ug N/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  microgramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  PO4-P
+	Attribute Label:  Phosphate
+	Attribute Definition:  Phosphate [automated colorimetric analysis (molybdate blue)] in ug P/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  microgramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  DOC
+	Attribute Label:  Dissolved organic carbon
+	Attribute Definition:  Amount of dissolved organic carbon in the stream water ion milligrams carbon per liter (mg C/L)
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Precision:  0.01
+		Number Type:  real
+	Missing Value Code: 
+
+
+	Attribute Name:  DIC
+	Attribute Label:  Dissolved Inorganic Carbon
+	Attribute Definition:  Dissolved Inorganic Carbon [by syringe stripping and infrared spectroscopy (Stainton 1973).] inmg C/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  TDN
+	Attribute Label:  Total Dissolved Nitrogen
+	Attribute Definition:  Total Digestible Nutrients (prior to 1998 by persulfate oxidation and automated colorimetric analysis; after 1998 by high temperature catalytic oxidation with chemiluminescent detection) inmg N/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  TDP
+	Attribute Label:  Total Dissolved Phosphate
+	Attribute Definition:  Total Dissolved Phosphate (by persulfate digestion followed by automated colorimetric analysis) in ug P/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  microgramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  SiO2
+	Attribute Label:  Silica
+	Attribute Definition:  Silica [automated colorimetric analysis (molybdate blue)] in mg SiO2/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  DON
+	Attribute Label:  Dissolved Organic Nitrogen
+	Attribute Definition:  Dissolved Organic Nitrogen (by difference (TDN - NO3-N - NH4-N)) in mg N/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  TSS
+	Attribute Label:  Total Suspended Sediments in mg/L - Gravemetric method, dried at 105 degrees C
+	Attribute Definition:  Total Suspended Sediments in mg/L - Gravemetric method, dried at 105 degrees C
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  ChlorideCode
+	Attribute Label:  Code indicating if Chloride is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Chloride is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Chloride is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  NitrateCode
+	Attribute Label:  Code indicating if Nitrate is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Nitrate is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Nitrate is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  SulfateCode
+	Attribute Label:  Code indicating if Sulfate is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Sulfate is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Sulfate is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  SodiumCode
+	Attribute Label:  Code indicating if Sodium is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Sodium is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Sodium is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  PotassiumCode
+	Attribute Label:  Code indicating if Potassium is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Potassium is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Potassium is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  MagnesiumCode
+	Attribute Label:  Code indicating if Magnesium is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Magnesium is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Magnesium is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  CalciumCode
+	Attribute Label:  Code indicating if Calcium is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Calcium is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Calcium is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  NH4Code
+	Attribute Label:  Code indicating if NH4 is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if NH4 is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if NH4 is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  PO4Code
+	Attribute Label:  Code indicating if PO4 is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if PO4 is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if PO4 is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  DOCCode
+	Attribute Label:  Code indicating if DOC is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if DOC is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if DOC is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  DICCode
+	Attribute Label:  Code indicating if DIC is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if DIC is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if DIC is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  TDNCode
+	Attribute Label:  Code indicating if TDN is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if TDN is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if TDN is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  SiO2Code
+	Attribute Label:  Code indicating if SiO2 is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if SiO2 is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if SiO2 is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  DONCode
+	Attribute Label:  Code indicating if DON is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if DON is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if DON is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  Sample_ID
+	Attribute Label:  Watershed or Collector's location
+	Attribute Definition:  Watershed or Collector's location where the sample is taken
+	Storage Type:  string
+	Measurement Scale: 
+		Watershed or Collector's location where the sample is taken
+	Missing Value Code: 
+
+
+	Attribute Name:  Code
+	Attribute Label:  Sample Code
+	Attribute Definition:  Numeric code of sample assigned at ITES
+	Storage Type:  
+	Measurement Scale: 
+		Units:  dimensionless
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Sample_Date
+	Attribute Label:  Sample Date
+	Attribute Definition:  Date when the sample was collected
+	Storage Type:  date
+	Measurement Scale: 
+	Missing Value Code: 
+
+
+	Attribute Name:  Sample_Time
+	Attribute Label:  Sample Time
+	Attribute Definition:  Time where sample was collected in the field
+	Storage Type:  
+	Measurement Scale: 
+		Units:		dimmessionless
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Gage_Ht
+	Attribute Label:  Gage height
+	Attribute Definition:  The height of the water surface above the gage datum (zero point) at sampling time (in meters)
+	Storage Type:  
+	Measurement Scale: 
+		Units:  meter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Temp
+	Attribute Label:  Temperature of water sample
+	Attribute Definition:  Temperature of the sample collected
+	Storage Type:  
+	Measurement Scale: 
+		Units:  celsius
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  pH
+	Attribute Label:  pH Electrometric with combination electrode
+	Attribute Definition:  pH (Electrometric with combination electrode)
+	Storage Type:  
+	Measurement Scale: 
+		Units:  dimensionless
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Cond
+	Attribute Label:  Conductivity
+	Attribute Definition:  Conductivity (Conductivity bridge in micro siemens/cm )
+	Storage Type:  
+	Measurement Scale: 
+		Units:		microSiemensPerCentimeter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Cl
+	Attribute Label:  Chloride
+	Attribute Definition:  Chloride (up to 1989 by automated colorimetric analysis (thiocyanate); after 1989 by liquid chromatography with conductivity detection) in mg Cl/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  NO3-N
+	Attribute Label:  Nitrate
+	Attribute Definition:  Amount of dissolved nitrate in the stream water in micrograms nitrogen per liter (ug N/L)
+	Storage Type:  
+	Measurement Scale: 
+		Units:  microgramsPerLiter
+		Precision:  0.1
+		Number Type:  real
+	Missing Value Code: 
+
+
+	Attribute Name:  SO4-S
+	Attribute Label:  Sulfate
+	Attribute Definition:  Sulfate (Liquid chromatography; conductivity detection) in mg/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Na
+	Attribute Label:  Sodium
+	Attribute Definition:  Sodium (up to 1994 by atomic absorption spectroscopy; after 1994 by ion chromatography with conductivity detection) in mg/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Precision:  0.01
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  K
+	Attribute Label:  Potassium
+	Attribute Definition:  Potassium (up to 1994 by atomic absorption spectroscopy; after 1994 by ion chromatography with conductivity detection) in ug N/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Mg
+	Attribute Label:  Magnesium
+	Attribute Definition:  Magnesium (up to 1994 by atomic absorption spectroscopy; after 1994 by ion chromatography with conductivity detection) in mg/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Ca
+	Attribute Label:  Calcium
+	Attribute Definition:  Calcium (up to 1994 by atomic absorption spectroscopy; after 1994 by ion chromatography with conductivity detection) in mg/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  NH4-N
+	Attribute Label:  Ammonium Nitrogen
+	Attribute Definition:  Ammonium Nitrogen[automated colorimetric analysis (phenolhypochlorite)] in ug N/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  microgramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  PO4-P
+	Attribute Label:  Phosphate
+	Attribute Definition:  Phosphate [automated colorimetric analysis (molybdate blue)] in ug P/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  microgramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  DOC
+	Attribute Label:  Dissolved organic carbon
+	Attribute Definition:  Amount of dissolved organic carbon in the stream water ion milligrams carbon per liter (mg C/L)
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Precision:  0.01
+		Number Type:  real
+	Missing Value Code: 
+
+
+	Attribute Name:  DIC
+	Attribute Label:  Dissolved Inorganic Carbon
+	Attribute Definition:  Dissolved Inorganic Carbon [by syringe stripping and infrared spectroscopy (Stainton 1973).] inmg C/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  TDN
+	Attribute Label:  Total Dissolved Nitrogen
+	Attribute Definition:  Total Digestible Nutrients (prior to 1998 by persulfate oxidation and automated colorimetric analysis; after 1998 by high temperature catalytic oxidation with chemiluminescent detection) inmg N/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  TDP
+	Attribute Label:  Total Dissolved Phosphate
+	Attribute Definition:  Total Dissolved Phosphate (by persulfate digestion followed by automated colorimetric analysis) in ug P/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  microgramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  SiO2
+	Attribute Label:  Silica
+	Attribute Definition:  Silica [automated colorimetric analysis (molybdate blue)] in mg SiO2/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  DON
+	Attribute Label:  Dissolved Organic Nitrogen
+	Attribute Definition:  Dissolved Organic Nitrogen (by difference (TDN - NO3-N - NH4-N)) in mg N/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  TSS
+	Attribute Label:  Total Suspended Sediments in mg/L - Gravemetric method, dried at 105 degrees C
+	Attribute Definition:  Total Suspended Sediments in mg/L - Gravemetric method, dried at 105 degrees C
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  ChlorideCode
+	Attribute Label:  Code indicating if Chloride is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Chloride is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Chloride is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  NitrateCode
+	Attribute Label:  Code indicating if Nitrate is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Nitrate is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Nitrate is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  SulfateCode
+	Attribute Label:  Code indicating if Sulfate is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Sulfate is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Sulfate is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  SodiumCode
+	Attribute Label:  Code indicating if Sodium is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Sodium is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Sodium is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  PotassiumCode
+	Attribute Label:  Code indicating if Potassium is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Potassium is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Potassium is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  MagnesiumCode
+	Attribute Label:  Code indicating if Magnesium is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Magnesium is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Magnesium is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  CalciumCode
+	Attribute Label:  Code indicating if Calcium is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Calcium is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Calcium is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  NH4Code
+	Attribute Label:  Code indicating if NH4 is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if NH4 is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if NH4 is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  PO4Code
+	Attribute Label:  Code indicating if PO4 is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if PO4 is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if PO4 is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  DOCCode
+	Attribute Label:  Code indicating if DOC is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if DOC is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if DOC is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  DICCode
+	Attribute Label:  Code indicating if DIC is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if DIC is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if DIC is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  TDNCode
+	Attribute Label:  Code indicating if TDN is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if TDN is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if TDN is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  SiO2Code
+	Attribute Label:  Code indicating if SiO2 is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if SiO2 is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if SiO2 is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  DONCode
+	Attribute Label:  Code indicating if DON is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if DON is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if DON is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  Sample_ID
+	Attribute Label:  Watershed or Collector's location
+	Attribute Definition:  Watershed or Collector's location where the sample is taken
+	Storage Type:  string
+	Measurement Scale: 
+		Watershed or Collector's location where the sample is taken
+	Missing Value Code: 
+
+
+	Attribute Name:  Code
+	Attribute Label:  Sample Code
+	Attribute Definition:  Numeric code of sample assigned at ITES
+	Storage Type:  
+	Measurement Scale: 
+		Units:  dimensionless
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Sample_Date
+	Attribute Label:  Sample Date
+	Attribute Definition:  Date when the sample was collected
+	Storage Type:  date
+	Measurement Scale: 
+	Missing Value Code: 
+
+
+	Attribute Name:  Sample_Time
+	Attribute Label:  Sample Time
+	Attribute Definition:  Time where sample was collected in the field
+	Storage Type:  
+	Measurement Scale: 
+		Units:		dimmessionless
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Gage_Ht
+	Attribute Label:  Gage height
+	Attribute Definition:  The height of the water surface above the gage datum (zero point) at sampling time (in meters)
+	Storage Type:  
+	Measurement Scale: 
+		Units:  meter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Temp
+	Attribute Label:  Temperature of water sample
+	Attribute Definition:  Temperature of the sample collected
+	Storage Type:  
+	Measurement Scale: 
+		Units:  celsius
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  pH
+	Attribute Label:  pH Electrometric with combination electrode
+	Attribute Definition:  pH (Electrometric with combination electrode)
+	Storage Type:  
+	Measurement Scale: 
+		Units:  dimensionless
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Cond
+	Attribute Label:  Conductivity
+	Attribute Definition:  Conductivity (Conductivity bridge in micro siemens/cm )
+	Storage Type:  
+	Measurement Scale: 
+		Units:		microSiemensPerCentimeter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Cl
+	Attribute Label:  Chloride
+	Attribute Definition:  Chloride (up to 1989 by automated colorimetric analysis (thiocyanate); after 1989 by liquid chromatography with conductivity detection) in mg Cl/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  NO3-N
+	Attribute Label:  Nitrate
+	Attribute Definition:  Amount of dissolved nitrate in the stream water in micrograms nitrogen per liter (ug N/L)
+	Storage Type:  
+	Measurement Scale: 
+		Units:  microgramsPerLiter
+		Precision:  0.1
+		Number Type:  real
+	Missing Value Code: 
+
+
+	Attribute Name:  SO4-S
+	Attribute Label:  Sulfate
+	Attribute Definition:  Sulfate (Liquid chromatography; conductivity detection) in mg/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Na
+	Attribute Label:  Sodium
+	Attribute Definition:  Sodium (up to 1994 by atomic absorption spectroscopy; after 1994 by ion chromatography with conductivity detection) in mg/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Precision:  0.01
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  K
+	Attribute Label:  Potassium
+	Attribute Definition:  Potassium (up to 1994 by atomic absorption spectroscopy; after 1994 by ion chromatography with conductivity detection) in ug N/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Mg
+	Attribute Label:  Magnesium
+	Attribute Definition:  Magnesium (up to 1994 by atomic absorption spectroscopy; after 1994 by ion chromatography with conductivity detection) in mg/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Ca
+	Attribute Label:  Calcium
+	Attribute Definition:  Calcium (up to 1994 by atomic absorption spectroscopy; after 1994 by ion chromatography with conductivity detection) in mg/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  NH4-N
+	Attribute Label:  Ammonium Nitrogen
+	Attribute Definition:  Ammonium Nitrogen[automated colorimetric analysis (phenolhypochlorite)] in ug N/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  microgramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  PO4-P
+	Attribute Label:  Phosphate
+	Attribute Definition:  Phosphate [automated colorimetric analysis (molybdate blue)] in ug P/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  microgramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  DOC
+	Attribute Label:  Dissolved organic carbon
+	Attribute Definition:  Amount of dissolved organic carbon in the stream water ion milligrams carbon per liter (mg C/L)
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Precision:  0.01
+		Number Type:  real
+	Missing Value Code: 
+
+
+	Attribute Name:  DIC
+	Attribute Label:  Dissolved Inorganic Carbon
+	Attribute Definition:  Dissolved Inorganic Carbon [by syringe stripping and infrared spectroscopy (Stainton 1973).] inmg C/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  TDN
+	Attribute Label:  Total Dissolved Nitrogen
+	Attribute Definition:  Total Digestible Nutrients (prior to 1998 by persulfate oxidation and automated colorimetric analysis; after 1998 by high temperature catalytic oxidation with chemiluminescent detection) inmg N/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  TDP
+	Attribute Label:  Total Dissolved Phosphate
+	Attribute Definition:  Total Dissolved Phosphate (by persulfate digestion followed by automated colorimetric analysis) in ug P/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  microgramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  SiO2
+	Attribute Label:  Silica
+	Attribute Definition:  Silica [automated colorimetric analysis (molybdate blue)] in mg SiO2/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  DON
+	Attribute Label:  Dissolved Organic Nitrogen
+	Attribute Definition:  Dissolved Organic Nitrogen (by difference (TDN - NO3-N - NH4-N)) in mg N/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  TSS
+	Attribute Label:  Total Suspended Sediments in mg/L - Gravemetric method, dried at 105 degrees C
+	Attribute Definition:  Total Suspended Sediments in mg/L - Gravemetric method, dried at 105 degrees C
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  ChlorideCode
+	Attribute Label:  Code indicating if Chloride is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Chloride is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Chloride is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  NitrateCode
+	Attribute Label:  Code indicating if Nitrate is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Nitrate is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Nitrate is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  SulfateCode
+	Attribute Label:  Code indicating if Sulfate is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Sulfate is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Sulfate is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  SodiumCode
+	Attribute Label:  Code indicating if Sodium is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Sodium is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Sodium is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  PotassiumCode
+	Attribute Label:  Code indicating if Potassium is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Potassium is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Potassium is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  MagnesiumCode
+	Attribute Label:  Code indicating if Magnesium is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Magnesium is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Magnesium is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  CalciumCode
+	Attribute Label:  Code indicating if Calcium is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Calcium is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Calcium is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  NH4Code
+	Attribute Label:  Code indicating if NH4 is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if NH4 is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if NH4 is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  PO4Code
+	Attribute Label:  Code indicating if PO4 is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if PO4 is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if PO4 is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  DOCCode
+	Attribute Label:  Code indicating if DOC is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if DOC is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if DOC is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  DICCode
+	Attribute Label:  Code indicating if DIC is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if DIC is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if DIC is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  TDNCode
+	Attribute Label:  Code indicating if TDN is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if TDN is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if TDN is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  SiO2Code
+	Attribute Label:  Code indicating if SiO2 is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if SiO2 is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if SiO2 is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  DONCode
+	Attribute Label:  Code indicating if DON is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if DON is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if DON is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  Sample_ID
+	Attribute Label:  Watershed or Collector's location
+	Attribute Definition:  Watershed or Collector's location where the sample is taken
+	Storage Type:  string
+	Measurement Scale: 
+		Watershed or Collector's location where the sample is taken
+	Missing Value Code: 
+
+
+	Attribute Name:  Code
+	Attribute Label:  Sample Code
+	Attribute Definition:  Numeric code of sample assigned at ITES
+	Storage Type:  
+	Measurement Scale: 
+		Units:  dimensionless
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Sample_Date
+	Attribute Label:  Sample Date
+	Attribute Definition:  Date when the sample was collected
+	Storage Type:  date
+	Measurement Scale: 
+	Missing Value Code: 
+
+
+	Attribute Name:  Sample_Time
+	Attribute Label:  Sample Time
+	Attribute Definition:  Time where sample was collected in the field
+	Storage Type:  
+	Measurement Scale: 
+		Units:		dimmessionless
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Gage_Ht
+	Attribute Label:  Gage height
+	Attribute Definition:  The height of the water surface above the gage datum (zero point) at sampling time (in meters)
+	Storage Type:  
+	Measurement Scale: 
+		Units:  meter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Temp
+	Attribute Label:  Temperature of water sample
+	Attribute Definition:  Temperature of the sample collected
+	Storage Type:  
+	Measurement Scale: 
+		Units:  celsius
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  pH
+	Attribute Label:  pH Electrometric with combination electrode
+	Attribute Definition:  pH (Electrometric with combination electrode)
+	Storage Type:  
+	Measurement Scale: 
+		Units:  dimensionless
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Cond
+	Attribute Label:  Conductivity
+	Attribute Definition:  Conductivity (Conductivity bridge in micro siemens/cm )
+	Storage Type:  
+	Measurement Scale: 
+		Units:		microSiemensPerCentimeter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Cl
+	Attribute Label:  Chloride
+	Attribute Definition:  Chloride (up to 1989 by automated colorimetric analysis (thiocyanate); after 1989 by liquid chromatography with conductivity detection) in mg Cl/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  NO3-N
+	Attribute Label:  Nitrate
+	Attribute Definition:  Amount of dissolved nitrate in the stream water in micrograms nitrogen per liter (ug N/L)
+	Storage Type:  
+	Measurement Scale: 
+		Units:  microgramsPerLiter
+		Precision:  0.1
+		Number Type:  real
+	Missing Value Code: 
+
+
+	Attribute Name:  SO4-S
+	Attribute Label:  Sulfate
+	Attribute Definition:  Sulfate (Liquid chromatography; conductivity detection) in mg/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Na
+	Attribute Label:  Sodium
+	Attribute Definition:  Sodium (up to 1994 by atomic absorption spectroscopy; after 1994 by ion chromatography with conductivity detection) in mg/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Precision:  0.01
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  K
+	Attribute Label:  Potassium
+	Attribute Definition:  Potassium (up to 1994 by atomic absorption spectroscopy; after 1994 by ion chromatography with conductivity detection) in ug N/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Mg
+	Attribute Label:  Magnesium
+	Attribute Definition:  Magnesium (up to 1994 by atomic absorption spectroscopy; after 1994 by ion chromatography with conductivity detection) in mg/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Ca
+	Attribute Label:  Calcium
+	Attribute Definition:  Calcium (up to 1994 by atomic absorption spectroscopy; after 1994 by ion chromatography with conductivity detection) in mg/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  NH4-N
+	Attribute Label:  Ammonium Nitrogen
+	Attribute Definition:  Ammonium Nitrogen[automated colorimetric analysis (phenolhypochlorite)] in ug N/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  microgramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  PO4-P
+	Attribute Label:  Phosphate
+	Attribute Definition:  Phosphate [automated colorimetric analysis (molybdate blue)] in ug P/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  microgramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  DOC
+	Attribute Label:  Dissolved organic carbon
+	Attribute Definition:  Amount of dissolved organic carbon in the stream water ion milligrams carbon per liter (mg C/L)
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Precision:  0.01
+		Number Type:  real
+	Missing Value Code: 
+
+
+	Attribute Name:  DIC
+	Attribute Label:  Dissolved Inorganic Carbon
+	Attribute Definition:  Dissolved Inorganic Carbon [by syringe stripping and infrared spectroscopy (Stainton 1973).] inmg C/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  TDN
+	Attribute Label:  Total Dissolved Nitrogen
+	Attribute Definition:  Total Digestible Nutrients (prior to 1998 by persulfate oxidation and automated colorimetric analysis; after 1998 by high temperature catalytic oxidation with chemiluminescent detection) inmg N/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  TDP
+	Attribute Label:  Total Dissolved Phosphate
+	Attribute Definition:  Total Dissolved Phosphate (by persulfate digestion followed by automated colorimetric analysis) in ug P/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  microgramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  SiO2
+	Attribute Label:  Silica
+	Attribute Definition:  Silica [automated colorimetric analysis (molybdate blue)] in mg SiO2/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  DON
+	Attribute Label:  Dissolved Organic Nitrogen
+	Attribute Definition:  Dissolved Organic Nitrogen (by difference (TDN - NO3-N - NH4-N)) in mg N/L
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  TSS
+	Attribute Label:  Total Suspended Sediments in mg/L - Gravemetric method, dried at 105 degrees C
+	Attribute Definition:  Total Suspended Sediments in mg/L - Gravemetric method, dried at 105 degrees C
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligramsPerLiter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  ChlorideCode
+	Attribute Label:  Code indicating if Chloride is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Chloride is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Chloride is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  NitrateCode
+	Attribute Label:  Code indicating if Nitrate is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Nitrate is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Nitrate is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  SulfateCode
+	Attribute Label:  Code indicating if Sulfate is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Sulfate is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Sulfate is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  SodiumCode
+	Attribute Label:  Code indicating if Sodium is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Sodium is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Sodium is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  PotassiumCode
+	Attribute Label:  Code indicating if Potassium is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Potassium is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Potassium is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  MagnesiumCode
+	Attribute Label:  Code indicating if Magnesium is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Magnesium is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Magnesium is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  CalciumCode
+	Attribute Label:  Code indicating if Calcium is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if Calcium is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if Calcium is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  NH4Code
+	Attribute Label:  Code indicating if NH4 is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if NH4 is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if NH4 is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  PO4Code
+	Attribute Label:  Code indicating if PO4 is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if PO4 is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if PO4 is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  DOCCode
+	Attribute Label:  Code indicating if DOC is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if DOC is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if DOC is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  DICCode
+	Attribute Label:  Code indicating if DIC is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if DIC is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if DIC is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  TDNCode
+	Attribute Label:  Code indicating if TDN is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if TDN is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if TDN is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  SiO2Code
+	Attribute Label:  Code indicating if SiO2 is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if SiO2 is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if SiO2 is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  DONCode
+	Attribute Label:  Code indicating if DON is below detection limit (BDL are values below detection limit).
+	Attribute Definition:  Code indicating if DON is below detection limit (BDL are values below detection limit).
+	Storage Type:  string
+	Measurement Scale: 
+		Code indicating if DON is below detection limit (BDL are values below detection limit).
+	Missing Value Code: 
+
+
+	Attribute Name:  Code
+	Attribute Label:  Sample Code
+	Attribute Definition:  Numeric code of sample assigned at ITES
+	Storage Type:  
+	Measurement Scale: 
+		Units:  dimensionless
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Sample_ID
+	Attribute Label:  Watershed or Collector's location
+	Attribute Definition:  Watershed or Collector's location where the sample is taken
+	Storage Type:  string
+	Measurement Scale: 
+		Watershed or Collector's location where the sample is taken
+	Missing Value Code: 
+
+
+	Attribute Name:  Sample_Date
+	Attribute Label:  Sample Date
+	Attribute Definition:  Date when the sample was collected
+	Storage Type:  date
+	Measurement Scale: 
+	Missing Value Code: 
+
+
+	Attribute Name:  Sample_Time
+	Attribute Label:  Sample Time
+	Attribute Definition:  Time where sample was collected in the field
+	Storage Type:  
+	Measurement Scale: 
+		Units:		dimmessionless
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Gage_Ht
+	Attribute Label:  Gage height
+	Attribute Definition:  The height of the water surface above the gage datum (zero point) at sampling time (in meters)
+	Storage Type:  
+	Measurement Scale: 
+		Units:  meter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Temp
+	Attribute Label:  Temperature of water sample
+	Attribute Definition:  Temperature in Celsius of the sample collected
+	Storage Type:  
+	Measurement Scale: 
+		Units:  celsius
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  pH
+	Attribute Label:  pH Electrometric with combination electrode
+	Attribute Definition:  pH (Electrometric with combination electrode)
+	Storage Type:  
+	Measurement Scale: 
+		Units:  dimensionless
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Cond
+	Attribute Label:  Conductivity
+	Attribute Definition:  Conductivity (Conductivity bridge in microsiemens/cm )
+	Storage Type:  
+	Measurement Scale: 
+		Units:		microSiemensPerCentimeter
+		Number Type:  real
+	Missing Value Code: NA  (Missing Value)
+
+
+	Attribute Name:  Comments at the field
+	Attribute Label:  PR_Remarks
+	Attribute Definition:  Comments annotated by observer at the field.
+	Storage Type:  string
+	Measurement Scale: 
+		Comments annotated by observer at the field.
+	Missing Value Code: 
+
+
