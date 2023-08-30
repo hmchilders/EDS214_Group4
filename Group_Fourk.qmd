@@ -26,5 +26,14 @@ BQ3 <- read_csv(here("data", "QuebradaCuenca3-Bisley.csv"))
 ```
 
 ```{r}
-#changechangeee
+
+BQ1_filter <- 
+  BQ1 %>% 
+  filter(Sample_Date > "1989-05-09", na.rm = TRUE)
+BQ2_filter <- 
+  BQ2 %>% 
+  filter(Sample_Date > "1989-05-09", na.rm = TRUE)
+BQ3_filter <- 
+  BQ3 %>% 
+  filter(Sample_Date > "1989-05-09", na.rm = TRUE)
 ```
