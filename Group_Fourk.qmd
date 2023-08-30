@@ -6,4 +6,21 @@ editor: visual
 
 ## Group Project
 
+### Libraries: 
 
+```{r}
+library(ggplot2)
+library(here)
+library(janitor)
+library(tidyverse)
+```
+
+### Read in data sets (BQ1, BQ2, BQ3, PRM)
+
+```{r}
+PRM <- read_csv(here("data", "RioMameyesPuenteRoto.csv"))
+BQ1 <- read_csv(here("data", "QuebradaCuenca1-Bisley.csv"))
+BQ2 <- read_csv(here("data", "QuebradaCuenca2-Bisley.csv"))
+BQ3 <- read_csv(here("data", "QuebradaCuenca3-Bisley.csv"))
+
+```
