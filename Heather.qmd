@@ -17,6 +17,8 @@ library(ggplot2)
 library(here)
 library(janitor)
 library(tidyverse)
+library(lubridate)
+library(ggpubr)
 ```
 
 ### Read in data sets (BQ1, BQ2, BQ3, PRM)
@@ -38,31 +40,81 @@ Since not all of the Data Sets start and end on the same date, we will need to f
 BQ1_filter <- 
   BQ1 %>% 
   filter(Sample_Date > "1989-05-09", na.rm = TRUE) %>% 
+  filter(Sample_Date < "1995-01-03") %>% 
+  mutate(month = )
+  group_by(Sample_ID) %>% 
   select("Sample_ID", "Sample_Date", "NO3-N", "K")
 BQ2_filter <- 
   BQ2 %>% 
   filter(Sample_Date > "1989-05-09", na.rm = TRUE)%>% 
+   filter(Sample_Date < "1995-01-03") %>% 
+  group_by(Sample_ID) %>% 
   select("Sample_ID", "Sample_Date", "NO3-N", "K")
 BQ3_filter <- 
   BQ3 %>% 
   filter(Sample_Date > "1989-05-09", na.rm = TRUE)%>% 
+   filter(Sample_Date < "1995-01-03") %>% 
+  group_by(Sample_ID) %>% 
   select("Sample_ID", "Sample_Date", "NO3-N", "K")
-PRM_fliter <- PRM %>% 
+PRM_filter <- PRM %>%
+  filter(Sample_Date < "1995-01-03") %>% 
   select("Sample_ID", "Sample_Date", "NO3-N", "K") %>% 
+  group_by(Sample_ID) %>% 
   drop_na()
 ```
 
 ```{r}
-joined_data <- full_join(BQ1_filter, BQ2_filter, by = "Sample_Date")
-full_join_pract <- pivot_longer(joined_data, cols = c("Sample_ID.x", "Sample_ID.y"))
+combined_data <- rbind(BQ1_filter,BQ2_filter,PRM_filter,BQ3_filter)
 ```
 
 ```{r}
-merged_data <- merge(BQ1_filter, BQ2_filter, by = "Sample_Date") %>% 
-  rename(site = Sample_ID.x,
-         NO3-N_BQ1 = NO3-N.x) 
-# %>% 
-  # rename(NO3-N_BQ1 = NO3-N.x)
- # merge(BQ3_filter, by = "Sample_Date") %>% 
- # merge(PRM_fliter,by = "Sample_Date")
+ggplot(combined_data, aes(x = Sample_Date, y = K))+
+  geom_line(aes(color = Sample_ID))
+ggplot(combined_data, aes(x = Sample_Date, y = K))+
+  geom_smooth(aes(color = Sample_ID))
+```
+
+```{r}
+data_wrang_1 <- function(data) 
+  data %>% 
+  filter(Sample_Date > "1989-05-09", na.rm = TRUE) %>% 
+  filter(Sample_Date < "1995-01-03") %>% 
+  mutate(formatted_date = format(Sample_Date, format = "%y- %m")) %>% 
+  select("formatted_date", "Sample_Date", "Sample_ID", "NO3-N", "K") %>% 
+  rename(Nitrate = 'NO3-N') %>% 
+  group_by(formatted_date) %>% 
+  summarize(monthly_avg_K = (mean(K, na.rm = TRUE)), 
+  monthly_avg_NO3 = (mean(Nitrate, na.rm = TRUE)))
+```
+
+```{r}
+BQ1_DW <- data_wrang_1(BQ1)
+BQ2_DW <- data_wrang_1(BQ2)
+BQ3_DW <- data_wrang_1(BQ3)
+PRM_DW <- data_wrang_1(PRM)
+```
+
+```{r}
+avg_K <- ggplot(data = NULL, aes(x = formatted_date, y = monthly_avg_K, group = 1))+
+  geom_line(data = BQ1_DW, color = "red")+
+  geom_line(data = BQ2_DW, color = "dodgerblue2")+
+  geom_line(data = BQ3_DW, color = "forestgreen")+
+  geom_line(data = PRM_DW, color = "darkorange")+
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
+  
+```
+
+```{r}
+avg_N <- ggplot(data = NULL, aes(x = formatted_date, y = monthly_avg_NO3, group = 1))+
+  geom_line(data = BQ1_DW, color = "red")+
+  geom_line(data = BQ2_DW, color = "dodgerblue2")+
+  geom_line(data = BQ3_DW, color = "forestgreen")+
+  geom_line(data = PRM_DW, color = "darkorange")+
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
+```
+
+```{r}
+ggarrange(avg_K,avg_N,
+          nrow=2,
+          ncol =1)
 ```
