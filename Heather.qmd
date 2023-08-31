@@ -41,7 +41,6 @@ BQ1_filter <-
   BQ1 %>% 
   filter(Sample_Date > "1989-05-09", na.rm = TRUE) %>% 
   filter(Sample_Date < "1995-01-03") %>% 
-  mutate(month = )
   group_by(Sample_ID) %>% 
   select("Sample_ID", "Sample_Date", "NO3-N", "K")
 BQ2_filter <- 
@@ -89,32 +88,117 @@ data_wrang_1 <- function(data)
 
 ```{r}
 BQ1_DW <- data_wrang_1(BQ1)
+BQ1_DW$formatted_date <- ym(BQ1_DW$formatted_date)
 BQ2_DW <- data_wrang_1(BQ2)
+BQ2_DW$formatted_date <- ym(BQ2_DW$formatted_date)
 BQ3_DW <- data_wrang_1(BQ3)
+BQ3_DW$formatted_date <- ym(BQ3_DW$formatted_date)
 PRM_DW <- data_wrang_1(PRM)
+PRM_DW$formatted_date <- ym(PRM_DW$formatted_date)
 ```
 
 ```{r}
+legend_colors <- c("color_1" = "red", "color_2"= "dodgerblue2", "color_3"= "forestgreen", "color_4"= "darkorange")
+
 avg_K <- ggplot(data = NULL, aes(x = formatted_date, y = monthly_avg_K, group = 1))+
   geom_line(data = BQ1_DW, color = "red")+
   geom_line(data = BQ2_DW, color = "dodgerblue2")+
   geom_line(data = BQ3_DW, color = "forestgreen")+
   geom_line(data = PRM_DW, color = "darkorange")+
+  ylab("Monthly Average K in mg/L")+
+  xlab("Year")+
+  # labs(color = "Legend") + 
+  # theme_bw()+
+  # scale_color_manual(values = legend_colors, 
+  #                    labels = c("color_1" = "BQ1", 
+  #                               "color_2" = "BQ2", 
+  #                               "color_3" = "BQ3", 
+  #                               "color_4" = "PRM"))+
+  theme_bw()+
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
+
+```
+
+```{r}
+# avg_N <- ggplot(data = NULL, aes(x = formatted_date, y = monthly_avg_NO3, group = 1))+
+#   geom_line(data = BQ1_DW, color = "red")+
+#   geom_line(data = BQ2_DW, color = "dodgerblue2")+
+#   geom_line(data = BQ3_DW, color = "forestgreen")+
+#   geom_line(data = PRM_DW, color = "darkorange")+
+#   theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1), legend.position= "bottom")
+
+# legend_colors <- c("color_1" = "red", "color_2"= "dodgerblue2", "color_3"= "forestgreen", "color_4"= "darkorange")
+
+avg_N <- ggplot(data = NULL, aes(x = formatted_date, y = monthly_avg_NO3, group = 1))+
+  geom_line(data = BQ1_DW, aes(color = "color_1"))+
+  geom_line(data = BQ2_DW, aes(color = "color_2"))+
+  geom_line(data = BQ3_DW, aes(color = "color_3"))+
+  geom_line(data = PRM_DW, aes(color = "color_4"))+
+  ylab("Monthly Average NO3-N in ug/L")+
+  xlab("Year")+
+  labs(color = "Legend") + 
+  theme_bw()+
+  scale_color_manual(values = legend_colors,
+                     labels = c("color_1" = "BQ1",
+                                "color_2" = "BQ2",
+                                "color_3" = "BQ3",
+                                "color_4" = "PRM")) +
   theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
   
+
 ```
 
 ```{r}
-avg_N <- ggplot(data = NULL, aes(x = formatted_date, y = monthly_avg_NO3, group = 1))+
-  geom_line(data = BQ1_DW, color = "red")+
-  geom_line(data = BQ2_DW, color = "dodgerblue2")+
-  geom_line(data = BQ3_DW, color = "forestgreen")+
-  geom_line(data = PRM_DW, color = "darkorange")+
-  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
-```
-
-```{r}
-ggarrange(avg_K,avg_N,
+ggarrange(avg_K, avg_N,
           nrow=2,
           ncol =1)
+```
+
+## Question 2
+
+```{r}
+BQ1_filter2 <- 
+  BQ1 %>% 
+  group_by(Sample_ID) %>% 
+  select("Sample_ID", "Sample_Date", "SO4-S", "Mg", "K", "TDN") %>% 
+  rename(SO4 = 'SO4-S') %>% 
+  filter(Sample_Date > "1989-05-09", na.rm = TRUE)
+BQ2_filter2 <- 
+  BQ2 %>% 
+  group_by(Sample_ID) %>%
+  select("Sample_ID", "Sample_Date", "SO4-S", "Mg", "K", "TDN")%>% 
+  rename(SO4 = 'SO4-S') %>% 
+  filter(Sample_Date > "1989-05-09", na.rm = TRUE)
+BQ3_filter2 <- 
+  BQ3 %>% 
+  group_by(Sample_ID) %>% 
+  select("Sample_ID", "Sample_Date", "SO4-S", "Mg", "K", "TDN")%>% 
+  rename(SO4 = 'SO4-S') %>% 
+  filter(Sample_Date > "1989-05-09", na.rm = TRUE)
+PRM_filter2 <- 
+  PRM %>% 
+  group_by(Sample_ID) %>% 
+  select("Sample_ID", "Sample_Date", "SO4-S", "Mg", "Ca", "TDN")%>% 
+  rename(SO4 = 'SO4-S') %>% 
+  filter(Sample_Date > "1989-05-09", na.rm = TRUE)
+
+combined_data_2 <- rbind(BQ1_filter2,BQ2_filter2,PRM_filter2,BQ3_filter2)
+```
+
+```{r}
+
+TDN_val<- ggplot(combined_data_2, aes(x = Sample_Date,y = TDN))+
+         geom_line(aes(color = Sample_ID))
+SO4_val<- ggplot(combined_data_2, aes(x = Sample_Date,y = SO4))+
+         geom_line(aes(color = Sample_ID))
+Mg_val<- ggplot(combined_data_2, aes(x = Sample_Date,y = Mg))+
+         geom_line(aes(color = Sample_ID))
+Ca_val<- ggplot(combined_data_2, aes(x = Sample_Date,y = Ca))+
+         geom_line(aes(color = Sample_ID))
+
+ggarrange(TDN_val,SO4_val,Mg_val,Ca_val,
+          nrow = 4,
+          ncol = 1)
+
+  
 ```
