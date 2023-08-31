@@ -1,0 +1,42 @@
+---
+title: "Heather's Practice"
+format: html
+editor: visual
+
+execute: 
+  warning: false
+---
+
+## Group Project
+
+### Libraries:
+
+```{r}
+library(ggplot2)
+library(here)
+library(janitor)
+library(tidyverse)
+```
+
+### Read in data sets (BQ1, BQ2, BQ3, PRM)
+
+```{r}
+PRM <- read_csv(here("data", "RioMameyesPuenteRoto.csv"))
+BQ1 <- read_csv(here("data", "QuebradaCuenca1-Bisley.csv"))
+BQ2 <- read_csv(here("data", "QuebradaCuenca2-Bisley.csv"))
+BQ3 <- read_csv(here("data", "QuebradaCuenca3-Bisley.csv"))
+
+```
+
+```{r}
+
+BQ1_filter <- 
+  BQ1 %>% 
+  filter(Sample_Date > "1989-05-09", na.rm = TRUE)
+BQ2_filter <- 
+  BQ2 %>% 
+  filter(Sample_Date > "1989-05-09", na.rm = TRUE)
+BQ3_filter <- 
+  BQ3 %>% 
+  filter(Sample_Date > "1989-05-09", na.rm = TRUE)
+```
