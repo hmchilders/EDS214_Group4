@@ -10,6 +10,7 @@ library(ggplot2)
 library(here)
 library(janitor)
 library(tidyverse)
+library(ggpubr)
 
 #Read in data sets (BQ1, BQ2, BQ3, PRM)
 
@@ -62,16 +63,61 @@ unique(BQ1_BQ2$Sample_ID)
 
 ```{r}
 #making a plot 
+
 plot_k <- ggplot(data =combined_data, aes(x= Sample_Date , y = K))+
   geom_line(aes(color = Sample_ID))+
   xlab("Years")+
-  ylab("K mg l -1")
+  ylab("K mg l -1")+
+  scale_x_continuous(breaks = scales::pretty_breaks(n=12))
+
 
 plot_no3 <- ggplot(data =combined_data, aes(x= Sample_Date , y = `NO3-N`))+
   geom_line(aes(color = Sample_ID))+
   xlab("Years")+
   ylab("NO3 ug")
+
 plot_k
 plot_no3
+ggarrange(plot_no3, plot_k,
+          nrow=2,
+          ncol=1)
+```
 
+```{r}
+BQ1_element <- 
+  BQ1 %>% 
+  filter(Sample_Date > "1989-05-09" , na.rm = TRUE) %>% 
+  select(Sample_ID,Sample_Date,`SO4-S`, Mg, Ca, TDN,pH) %>% 
+  drop_na() 
+BQ2_element <- 
+  BQ2 %>% 
+  filter(Sample_Date > "1989-05-09" , na.rm = TRUE) %>% 
+  select(Sample_ID,Sample_Date,`SO4-S`, Mg, Ca, TDN,pH) %>% 
+  drop_na()
+BQ3_element <- 
+  BQ3 %>% 
+  filter(Sample_Date > "1989-05-09" , na.rm = TRUE) %>% 
+  select(Sample_ID,Sample_Date,`SO4-S`, Mg, Ca, TDN,pH) %>% 
+  drop_na()
+PRM_elementr <- 
+  PRM %>% 
+  select(Sample_ID, Sample_Date,`SO4-S`, Mg, Ca, TDN,pH) %>% 
+  drop_na()
+
+```
+
+```{r}
+element_site_bind <- rbind(BQ1_element,BQ2_element,BQ3_element, PRM_elementr)
+```
+
+```{r}
+mg_plot<- ggplot(data = element_site_bind, aes(x= Sample_Date, y = Mg))+
+  geom_line(aes(color = Sample_ID))
+
+tdn_plot <- ggplot(data= element_site_bind, aes(x= Sample_Date, y = TDN ))+
+  geom_line(aes(color = Sample_ID))
+
+ggarrange(mg_plot, tdn_plot,
+          nrows=2,
+          ncol=1)
 ```
