@@ -12,6 +12,7 @@ execute:
 ### Libraries:
 
 ```{r}
+# Attach the necessary packages for the project
 library(ggplot2)
 library(here)
 library(janitor)
@@ -28,15 +29,40 @@ BQ3 <- read_csv(here("data", "QuebradaCuenca3-Bisley.csv"))
 
 ```
 
+## Data Wrangling
+
+Since not all of the Data Sets start and end on the same date, we will need to filter some of the data sets to restrict the time series.
+
 ```{r}
 
 BQ1_filter <- 
   BQ1 %>% 
-  filter(Sample_Date > "1989-05-09", na.rm = TRUE)
+  filter(Sample_Date > "1989-05-09", na.rm = TRUE) %>% 
+  select("Sample_ID", "Sample_Date", "NO3-N", "K")
 BQ2_filter <- 
   BQ2 %>% 
-  filter(Sample_Date > "1989-05-09", na.rm = TRUE)
+  filter(Sample_Date > "1989-05-09", na.rm = TRUE)%>% 
+  select("Sample_ID", "Sample_Date", "NO3-N", "K")
 BQ3_filter <- 
   BQ3 %>% 
-  filter(Sample_Date > "1989-05-09", na.rm = TRUE)
+  filter(Sample_Date > "1989-05-09", na.rm = TRUE)%>% 
+  select("Sample_ID", "Sample_Date", "NO3-N", "K")
+PRM_fliter <- PRM %>% 
+  select("Sample_ID", "Sample_Date", "NO3-N", "K") %>% 
+  drop_na()
+```
+
+```{r}
+joined_data <- full_join(BQ1_filter, BQ2_filter, by = "Sample_Date")
+full_join_pract <- pivot_longer(joined_data, cols = c("Sample_ID.x", "Sample_ID.y"))
+```
+
+```{r}
+merged_data <- merge(BQ1_filter, BQ2_filter, by = "Sample_Date") %>% 
+  rename(site = Sample_ID.x,
+         NO3-N_BQ1 = NO3-N.x) 
+# %>% 
+  # rename(NO3-N_BQ1 = NO3-N.x)
+ # merge(BQ3_filter, by = "Sample_Date") %>% 
+ # merge(PRM_fliter,by = "Sample_Date")
 ```

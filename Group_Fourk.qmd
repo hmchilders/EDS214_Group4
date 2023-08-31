@@ -26,14 +26,23 @@ BQ3 <- read_csv(here("data", "QuebradaCuenca3-Bisley.csv"))
 ```
 
 ```{r}
-
 BQ1_filter <- 
   BQ1 %>% 
-  filter(Sample_Date > "1989-05-09", na.rm = TRUE)
+  filter(Sample_Date > "1989-05-09", na.rm = TRUE) %>% 
+  select("Sample_ID", "Sample_Date", "NO3-N", "K")
 BQ2_filter <- 
   BQ2 %>% 
-  filter(Sample_Date > "1989-05-09", na.rm = TRUE)
+  filter(Sample_Date > "1989-05-09", na.rm = TRUE)%>% 
+  select("Sample_ID", "Sample_Date", "NO3-N", "K")
 BQ3_filter <- 
   BQ3 %>% 
-  filter(Sample_Date > "1989-05-09", na.rm = TRUE)
+  filter(Sample_Date > "1989-05-09", na.rm = TRUE)%>% 
+  select("Sample_ID", "Sample_Date", "NO3-N", "K")
+PRM_filter <- PRM %>% 
+  select("Sample_ID", "Sample_Date", "NO3-N", "K") %>% 
+  drop_na()
+```
+
+```{r}
+combined_data <- rbind(BQ1_filter,BQ2_filter,PRM_filter,BQ3_filter)
 ```
