@@ -1,0 +1,77 @@
+---
+title: "mkg group project"
+format: html
+editor: visual
+---
+
+```{r}
+
+library(ggplot2)
+library(here)
+library(janitor)
+library(tidyverse)
+
+#Read in data sets (BQ1, BQ2, BQ3, PRM)
+
+PRM <- read_csv(here("data", "RioMameyesPuenteRoto.csv"))
+BQ1 <- read_csv(here("data", "QuebradaCuenca1-Bisley.csv"))
+BQ2 <- read_csv(here("data", "QuebradaCuenca2-Bisley.csv"))
+BQ3 <- read_csv(here("data", "QuebradaCuenca3-Bisley.csv"))
+
+
+
+
+```
+
+```{r}
+#filtering the datasets 
+
+BQ1_filter <- 
+  BQ1 %>% 
+  filter(Sample_Date > "1989-05-09" , na.rm = TRUE) %>% 
+  filter(Sample_Date < "1995-01-03") %>%
+  select(Sample_ID,Sample_Date,`NO3-N`,K) %>% 
+  drop_na() 
+BQ2_filter <- 
+  BQ2 %>% 
+  filter(Sample_Date > "1989-05-09" , na.rm = TRUE) %>% 
+  filter(Sample_Date < "1995-01-03") %>%
+  select(Sample_ID,Sample_Date,`NO3-N`,K) %>% 
+  drop_na()
+BQ3_filter <- 
+  BQ3 %>% 
+  filter(Sample_Date > "1989-05-09" , na.rm = TRUE) %>% 
+  filter(Sample_Date < "1995-01-03") %>%
+  select(Sample_ID,Sample_Date,`NO3-N`,K) %>% 
+  drop_na()
+PRM_filter <- 
+  PRM %>% 
+  filter(Sample_Date < "1995-01-03") %>% 
+  select(Sample_ID, Sample_Date,`NO3-N`,K) %>% 
+  drop_na()
+
+```
+
+```{r}
+#full join 
+combined_data <- rbind(BQ1_filter,BQ2_filter,PRM_filter,BQ3_filter)
+
+unique(BQ1_BQ2$Sample_ID)
+  
+```
+
+```{r}
+#making a plot 
+plot_k <- ggplot(data =combined_data, aes(x= Sample_Date , y = K))+
+  geom_line(aes(color = Sample_ID))+
+  xlab("Years")+
+  ylab("K mg l -1")
+
+plot_no3 <- ggplot(data =combined_data, aes(x= Sample_Date , y = `NO3-N`))+
+  geom_line(aes(color = Sample_ID))+
+  xlab("Years")+
+  ylab("NO3 ug")
+plot_k
+plot_no3
+
+```
