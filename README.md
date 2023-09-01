@@ -27,10 +27,17 @@ How users can get started with the project:
 
 Make sure to open the Group_Fourk.qmd first, because it will contain the data needed. Make sure to check that the data used is readily available in the project. 
 
-##Question 2 :
-###How have other hurricanes affected nutrient concentrations (specifically Ca, Mg, SO2-4, TDN) from 2010 to 2018 in the PRM, BQ1,BQ2, BQ3 watersheds?
+Question 2 :
+
+How have other hurricanes affected nutrient concentrations (specifically Ca, Mg, SO2-4, TDN) from 2010 to 2018 in the PRM, BQ1,BQ2, BQ3 watersheds?
+
+Resulting graphs:
 
 
-Where users can get help with your project
+![image_720](https://github.com/hmchilders/EDS214_Group4/assets/105567684/a7e4a488-1c5f-48f9-9528-2b414d798dd5)
 
-Who maintains and contributes to the project
+
+
+
+Useful tips:
+Make sure you and your group are all on the same page of how you would like to work on this project together (seperate branches or paired programming)
