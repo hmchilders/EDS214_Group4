@@ -12,6 +12,8 @@ Original plot we tried to copy (Question 1):
 
 ![Screenshot 2023-09-01 120333](https://github.com/hmchilders/EDS214_Group4/assets/105567684/6e759ddb-9049-4b0f-be44-21795c4627cd)
 
+Resulting graphs: 
+![image_720](https://github.com/hmchilders/EDS214_Group4/assets/105567684/395b5878-2026-440c-9b28-f74e19cb284a)
 
 
 
