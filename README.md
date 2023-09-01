@@ -48,6 +48,7 @@ Resulting graphs:
 
 
 Useful tips:
+
 Make sure you and your group are all on the same page of how you would like to work on this project together (seperate branches or paired programming);
 
 
