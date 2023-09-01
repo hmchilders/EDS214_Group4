@@ -40,4 +40,6 @@ Resulting graphs:
 
 
 Useful tips:
-Make sure you and your group are all on the same page of how you would like to work on this project together (seperate branches or paired programming)
+Make sure you and your group are all on the same page of how you would like to work on this project together (seperate branches or paired programming);
+Make sure the nutrients you are measuring on the same graph are all the same units. 
+Try to be as familiar as you can be with Github, (ie cloning repositories)
