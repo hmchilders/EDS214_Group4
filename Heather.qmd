@@ -81,7 +81,7 @@ data_wrang_1 <- function(data)
   mutate(formatted_date = format(Sample_Date, format = "%y- %m")) %>% 
   select("formatted_date", "Sample_Date", "Sample_ID", "NO3-N", "K") %>% 
   rename(Nitrate = 'NO3-N') %>% 
-  group_by(formatted_date) %>% 
+  group_by(formatted_date) %>%
   summarize(monthly_avg_K = (mean(K, na.rm = TRUE)), 
   monthly_avg_NO3 = (mean(Nitrate, na.rm = TRUE)))
 ```
@@ -89,10 +89,13 @@ data_wrang_1 <- function(data)
 ```{r}
 BQ1_DW <- data_wrang_1(BQ1)
 BQ1_DW$formatted_date <- ym(BQ1_DW$formatted_date)
+
 BQ2_DW <- data_wrang_1(BQ2)
 BQ2_DW$formatted_date <- ym(BQ2_DW$formatted_date)
+
 BQ3_DW <- data_wrang_1(BQ3)
 BQ3_DW$formatted_date <- ym(BQ3_DW$formatted_date)
+
 PRM_DW <- data_wrang_1(PRM)
 PRM_DW$formatted_date <- ym(PRM_DW$formatted_date)
 ```
@@ -116,6 +119,8 @@ avg_K <- ggplot(data = NULL, aes(x = formatted_date, y = monthly_avg_K, group = 
   #                               "color_4" = "PRM"))+
   theme_bw()+
   theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
+
+avg_K
 
 ```
 
@@ -160,19 +165,19 @@ ggarrange(avg_K, avg_N,
 BQ1_filter2 <- 
   BQ1 %>% 
   group_by(Sample_ID) %>% 
-  select("Sample_ID", "Sample_Date", "SO4-S", "Mg", "K", "TDN") %>% 
+  select("Sample_ID", "Sample_Date", "SO4-S", "Mg", "K","Ca", "TDN") %>% 
   rename(SO4 = 'SO4-S') %>% 
   filter(Sample_Date > "1989-05-09", na.rm = TRUE)
 BQ2_filter2 <- 
   BQ2 %>% 
   group_by(Sample_ID) %>%
-  select("Sample_ID", "Sample_Date", "SO4-S", "Mg", "K", "TDN")%>% 
+  select("Sample_ID", "Sample_Date", "SO4-S", "Mg", "K","Ca", "TDN")%>% 
   rename(SO4 = 'SO4-S') %>% 
   filter(Sample_Date > "1989-05-09", na.rm = TRUE)
 BQ3_filter2 <- 
   BQ3 %>% 
   group_by(Sample_ID) %>% 
-  select("Sample_ID", "Sample_Date", "SO4-S", "Mg", "K", "TDN")%>% 
+  select("Sample_ID", "Sample_Date", "SO4-S", "Mg", "K","Ca", "TDN")%>% 
   rename(SO4 = 'SO4-S') %>% 
   filter(Sample_Date > "1989-05-09", na.rm = TRUE)
 PRM_filter2 <- 
@@ -183,6 +188,17 @@ PRM_filter2 <-
   filter(Sample_Date > "1989-05-09", na.rm = TRUE)
 
 combined_data_2 <- rbind(BQ1_filter2,BQ2_filter2,PRM_filter2,BQ3_filter2)
+conc_data <- pivot_longer(data = combined_data_2, cols = SO4:TDN, names_to = "Chemical_Compound", values_to = "Concentration")
+
+```
+
+```{r}
+ggplot(conc_data, aes(x = Sample_Date, y = Concentration))+
+  geom_line(aes(color = Chemical_Compound))+
+  facet_wrap(facets = "Sample_ID")+
+  theme_bw()+
+  labs(title = "Chemical Concentration by Sample Site")+
+  ylab("Chemical Concentration in mg/L")
 ```
 
 ```{r}
