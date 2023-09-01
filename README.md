@@ -21,11 +21,16 @@ Resulting graphs:
 
 
 
-Why the project is useful
+Why the project is useful:
+It can build on existing data wrangling and visualization skills using existing raw data. It also serves as a baseline for future chemical concentration analyses from hurricane impacts. 
 
 How users can get started with the project:
 
-Make sure to open the Group_Fourk.qmd first, because it will contain the data needed. Make sure to check that the data used is readily available in the project. 
+Make sure to open the Group_Fourk.qmd first, because it will contain the libraries/packages needed.
+
+There should be a folder which contains data from all water sheds if one wanted to compose a different analysis.
+
+Make sure to check that the data used is readily available in the project. 
 
 Question 2 :
 
