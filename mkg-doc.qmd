@@ -67,8 +67,7 @@ unique(BQ1_BQ2$Sample_ID)
 plot_k <- ggplot(data =combined_data, aes(x= Sample_Date , y = K))+
   geom_line(aes(color = Sample_ID))+
   xlab("Years")+
-  ylab("K mg l -1")+
-  scale_x_continuous(breaks = scales::pretty_breaks(n=12))
+  ylab("K mg l -1")
 
 
 plot_no3 <- ggplot(data =combined_data, aes(x= Sample_Date , y = `NO3-N`))+

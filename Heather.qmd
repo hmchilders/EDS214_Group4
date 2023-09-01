@@ -39,34 +39,49 @@ Since not all of the Data Sets start and end on the same date, we will need to f
 
 BQ1_filter <- 
   BQ1 %>% 
+  # Filter the Data to a specific time series, remove NA Values
   filter(Sample_Date > "1989-05-09", na.rm = TRUE) %>% 
   filter(Sample_Date < "1995-01-03") %>% 
+  # Group the data based on which site the data came from
   group_by(Sample_ID) %>% 
+  # Select only the necessary data columns from the raw data
   select("Sample_ID", "Sample_Date", "NO3-N", "K")
 BQ2_filter <- 
   BQ2 %>% 
+  # Filter the Data to a specific time series, remove NA Values
   filter(Sample_Date > "1989-05-09", na.rm = TRUE)%>% 
    filter(Sample_Date < "1995-01-03") %>% 
+  # Group the data based on which site the data came from
   group_by(Sample_ID) %>% 
+  # Select only the necessary data columns from the raw data
   select("Sample_ID", "Sample_Date", "NO3-N", "K")
 BQ3_filter <- 
   BQ3 %>% 
+  # Filter the Data to a specific time series, remove NA Values
   filter(Sample_Date > "1989-05-09", na.rm = TRUE)%>% 
    filter(Sample_Date < "1995-01-03") %>% 
+  # Group the data based on which site the data came from
   group_by(Sample_ID) %>% 
+  # Select only the necessary data columns from the raw data
   select("Sample_ID", "Sample_Date", "NO3-N", "K")
 PRM_filter <- PRM %>%
+  # Filter the Data to a specific time series
   filter(Sample_Date < "1995-01-03") %>% 
+  # Select only the necessary data columns from the raw data
   select("Sample_ID", "Sample_Date", "NO3-N", "K") %>% 
+  # Group the data based on which site the data came from
   group_by(Sample_ID) %>% 
+  # remove NA Values
   drop_na()
 ```
 
 ```{r}
+# Use the rbind function to combine all four data sets
 combined_data <- rbind(BQ1_filter,BQ2_filter,PRM_filter,BQ3_filter)
 ```
 
 ```{r}
+#  Use ggplot in the tidyverse to plot the 
 ggplot(combined_data, aes(x = Sample_Date, y = K))+
   geom_line(aes(color = Sample_ID))
 ggplot(combined_data, aes(x = Sample_Date, y = K))+
@@ -74,19 +89,29 @@ ggplot(combined_data, aes(x = Sample_Date, y = K))+
 ```
 
 ```{r}
+# Create a function that will wrangle the data to find the monthly averages for each site, based of the user input "data"=name of the data
 data_wrang_1 <- function(data) 
+  # Define the dataset
   data %>% 
+  # Filter the data to a selected time series and remove NA Values
   filter(Sample_Date > "1989-05-09", na.rm = TRUE) %>% 
   filter(Sample_Date < "1995-01-03") %>% 
+  # Create a new column called "formatted_date" to extract just the month and year info
   mutate(formatted_date = format(Sample_Date, format = "%y- %m")) %>% 
+  # Select only the necessary compounds for the monthly average graph
   select("formatted_date", "Sample_Date", "Sample_ID", "NO3-N", "K") %>% 
+  # Rename the NO3-N column because ggplot thinks "-" is the minus operator
   rename(Nitrate = 'NO3-N') %>% 
+  #  group by the month-year info extrracted from Sample_Date
   group_by(formatted_date) %>%
+  # Create a summary table that provides the monthly averages for K and N based on the month-year grouping. Removnig NA values where necessary
   summarize(monthly_avg_K = (mean(K, na.rm = TRUE)), 
   monthly_avg_NO3 = (mean(Nitrate, na.rm = TRUE)))
 ```
 
 ```{r}
+# Run each dataset through the data wrangling function
+#Use lubridate ym function to change the class of formatted-date to a date class from a character class
 BQ1_DW <- data_wrang_1(BQ1)
 BQ1_DW$formatted_date <- ym(BQ1_DW$formatted_date)
 
@@ -101,56 +126,85 @@ PRM_DW$formatted_date <- ym(PRM_DW$formatted_date)
 ```
 
 ```{r}
+# Create a matrix called "legend colors" to specify which legend colors you want to use
 legend_colors <- c("color_1" = "red", "color_2"= "dodgerblue2", "color_3"= "forestgreen", "color_4"= "darkorange")
 
+# Use ggplot to plot the montly averages over time
 avg_K <- ggplot(data = NULL, aes(x = formatted_date, y = monthly_avg_K, group = 1))+
-  geom_line(data = BQ1_DW, color = "red")+
-  geom_line(data = BQ2_DW, color = "dodgerblue2")+
-  geom_line(data = BQ3_DW, color = "forestgreen")+
-  geom_line(data = PRM_DW, color = "darkorange")+
+  # Use geom_line to associate a color with each data set
+  geom_line(data = BQ1_DW, color = legend_colors[1])+
+  geom_line(data = BQ2_DW, color = legend_colors[2])+
+  geom_line(data = BQ3_DW, color = legend_colors[3])+
+  geom_line(data = PRM_DW, color = legend_colors[4])+
+  #  Change the axis labels
   ylab("Monthly Average K in mg/L")+
   xlab("Year")+
-  # labs(color = "Legend") + 
-  # theme_bw()+
-  # scale_color_manual(values = legend_colors, 
-  #                    labels = c("color_1" = "BQ1", 
-  #                               "color_2" = "BQ2", 
-  #                               "color_3" = "BQ3", 
-  #                               "color_4" = "PRM"))+
+  # Change the theme
   theme_bw()+
-  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
+   scale_color_manual(values = legend_colors,
+                     labels = c("color_1" = "BQ1",
+                                "color_2" = "BQ2",
+                                "color_3" = "BQ3",
+                                "color_4" = "PRM"))+
+  #  Add in a vertical line to indicate when the hurricane happened
+  geom_vline(xintercept = as.numeric(as.Date("1989-09-18")),linetype= "dashed")
 
 avg_K
 
 ```
 
 ```{r}
-# avg_N <- ggplot(data = NULL, aes(x = formatted_date, y = monthly_avg_NO3, group = 1))+
-#   geom_line(data = BQ1_DW, color = "red")+
-#   geom_line(data = BQ2_DW, color = "dodgerblue2")+
-#   geom_line(data = BQ3_DW, color = "forestgreen")+
-#   geom_line(data = PRM_DW, color = "darkorange")+
-#   theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1), legend.position= "bottom")
+# Create a matrix called "legend colors" to specify which legend colors you want to use
+legend_colors <- c("color_1" = "red", "color_2"= "dodgerblue2", "color_3"= "forestgreen", "color_4"= "darkorange")
 
-# legend_colors <- c("color_1" = "red", "color_2"= "dodgerblue2", "color_3"= "forestgreen", "color_4"= "darkorange")
-
+# Use ggplot to plot the monthly averages for nitrate over time
 avg_N <- ggplot(data = NULL, aes(x = formatted_date, y = monthly_avg_NO3, group = 1))+
+  # Use geom_line to associate a color with each data set
   geom_line(data = BQ1_DW, aes(color = "color_1"))+
   geom_line(data = BQ2_DW, aes(color = "color_2"))+
   geom_line(data = BQ3_DW, aes(color = "color_3"))+
   geom_line(data = PRM_DW, aes(color = "color_4"))+
+  #  Change the axis labels
   ylab("Monthly Average NO3-N in ug/L")+
   xlab("Year")+
-  labs(color = "Legend") + 
-  theme_bw()+
+   # Add the Legend
+  labs(color = "Legend") +
   scale_color_manual(values = legend_colors,
                      labels = c("color_1" = "BQ1",
                                 "color_2" = "BQ2",
                                 "color_3" = "BQ3",
-                                "color_4" = "PRM")) +
-  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
-  
+                                "color_4" = "PRM"))+
+  # Change the theme
+  theme_bw()+
+  #  Add in a vertical line to indicate when the hurricane happened
+  geom_vline(xintercept = as.numeric(as.Date("1989-09-18")),linetype= "dashed")
+ 
+ # Use ggplot to plot the montly averages over time
+avg_K <- ggplot(data = NULL, aes(x = formatted_date, y = monthly_avg_K, group = 1))+
+  # Use geom_line to associate a color with each data set
+ geom_line(data = BQ1_DW, aes(color = "color_1"))+
+  geom_line(data = BQ2_DW, aes(color = "color_2"))+
+  geom_line(data = BQ3_DW, aes(color = "color_3"))+
+  geom_line(data = PRM_DW, aes(color = "color_4"))+
+  #  Change the axis labels
+  ylab("Monthly Average K in mg/L")+
+  xlab("Year")+
+  # Add the Legend
+  labs(color = "Legend") + 
+  scale_color_manual(values = legend_colors,
+                     labels = c("color_1" = "BQ1",
+                                "color_2" = "BQ2",
+                                "color_3" = "BQ3",
+                                "color_4" = "PRM"))+
+  # Change the theme
+  theme_bw()+
+  #  Add in a vertical line to indicate when the hurricane happened
+  geom_vline(xintercept = as.numeric(as.Date("1989-09-18")),linetype= "dashed")
 
+# Use ggarrange to put the two grpahs together
+ggarrange(avg_K, avg_N,
+          nrow=2,
+          ncol =1)
 ```
 
 ```{r}
@@ -167,25 +221,25 @@ BQ1_filter2 <-
   group_by(Sample_ID) %>% 
   select("Sample_ID", "Sample_Date", "SO4-S", "Mg", "K","Ca", "TDN") %>% 
   rename(SO4 = 'SO4-S') %>% 
-  filter(Sample_Date > "1989-05-09", na.rm = TRUE)
+  filter(Sample_Date > "2010-01-05", na.rm = TRUE)
 BQ2_filter2 <- 
   BQ2 %>% 
   group_by(Sample_ID) %>%
   select("Sample_ID", "Sample_Date", "SO4-S", "Mg", "K","Ca", "TDN")%>% 
   rename(SO4 = 'SO4-S') %>% 
-  filter(Sample_Date > "1989-05-09", na.rm = TRUE)
+  filter(Sample_Date > "2010-01-05", na.rm = TRUE)
 BQ3_filter2 <- 
   BQ3 %>% 
   group_by(Sample_ID) %>% 
   select("Sample_ID", "Sample_Date", "SO4-S", "Mg", "K","Ca", "TDN")%>% 
   rename(SO4 = 'SO4-S') %>% 
-  filter(Sample_Date > "1989-05-09", na.rm = TRUE)
+  filter(Sample_Date > "2010-01-05", na.rm = TRUE)
 PRM_filter2 <- 
   PRM %>% 
   group_by(Sample_ID) %>% 
   select("Sample_ID", "Sample_Date", "SO4-S", "Mg", "Ca", "TDN")%>% 
   rename(SO4 = 'SO4-S') %>% 
-  filter(Sample_Date > "1989-05-09", na.rm = TRUE)
+  filter(Sample_Date > "2010-01-05", na.rm = TRUE)
 
 combined_data_2 <- rbind(BQ1_filter2,BQ2_filter2,PRM_filter2,BQ3_filter2)
 conc_data <- pivot_longer(data = combined_data_2, cols = SO4:TDN, names_to = "Chemical_Compound", values_to = "Concentration")
@@ -197,6 +251,12 @@ ggplot(conc_data, aes(x = Sample_Date, y = Concentration))+
   geom_line(aes(color = Chemical_Compound))+
   facet_wrap(facets = "Sample_ID")+
   theme_bw()+
+  # Hurricane Urma = Catagory 5
+  geom_vline(xintercept = as.numeric(as.Date("2017-09-07")),linetype= "dashed", color = "darkorange")+
+  #Hurricane Maria = Catagory 5
+  geom_vline(xintercept = as.numeric(as.Date("2017-09-19")),linetype= "dashed", color = "blue")+
+  # Hurricane Earl = Catagpry 4
+  geom_vline(xintercept = as.numeric(as.Date("2010-08-29")),linetype= "dashed")+
   labs(title = "Chemical Concentration by Sample Site")+
   ylab("Chemical Concentration in mg/L")
 ```
