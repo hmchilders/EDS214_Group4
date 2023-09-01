@@ -20,11 +20,11 @@ Resulting graphs:
 
 
 
-What the project does
 
 Why the project is useful
 
 How users can get started with the project
+Make sure to open the Group_Fourk.qmd first, because it will contain the data needed. Make sure to check that the data used is readily available in the project. 
 
 Where users can get help with your project
 
