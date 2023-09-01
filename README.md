@@ -7,7 +7,13 @@ Trying to compose a reproducible graph that others are able to compute
 Replicating an existing graph by tidying, filtering, and calculating raw data 
 Graphing change in different nutrient concentrations across different watersheds (Question 2)
 
-Original plot we tried to copy:
+Original plot we tried to copy (Question 1):
+
+
+![Screenshot 2023-09-01 120333](https://github.com/hmchilders/EDS214_Group4/assets/105567684/6e759ddb-9049-4b0f-be44-21795c4627cd)
+
+
+
 
 What the project does
 
